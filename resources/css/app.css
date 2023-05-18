@@ -1,3 +1,22 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+@import "font-awesome/css/font-awesome.css";
+
+@font-face {
+  font-family: 'Cooperplate-Gothic-Bold';
+  src: url('/fonts/Copperplate-Gothic-Bold.ttf');
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  font-family: 'Montserrat', Helvetica, Arial, Lucida, sans-serif;
+}
+
+.best-world-logo {
+  font-family: 'Cooperplate-Gothic-Bold', Helvetica, Arial, Lucida, sans-serif;
+}
