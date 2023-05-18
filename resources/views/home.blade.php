@@ -130,7 +130,7 @@
         </div>
         <div
             class="w-4/5 max-w-7xl mx-auto p-[2vw] rounded-lg shadow-xl flex flex-col lg:flex-row items-start justify-between bg-white">
-            <div class="w-[56%] mr-[5%] flex-1">
+            <div class="lg:w-[56%] mr-[5%] flex-1 mb-7 lg:mb-0">
                 <div class="mb-[4%]">
                     <h2 class="text-4xl font-bold text-black leading-relaxed">Lil’ Shopper’s Shoppe Gift Catalog</h2>
                     <p class="text-black leading-loose">Are you looking for school holiday shop items that are high quality
@@ -170,7 +170,7 @@
                     <a href="/lss-brochure" class="text-white rounded-3xl text-sm uppercase tracking-widest bg-[#d0202f] py-4 px-7 shadow-lg">View Catalog</a>
                 </div>
             </div>
-            <div class="w-[35%]">
+            <div class="lg:w-[35%] mx-auto lg:mx-0">
                 <a href="/lss-brochure" target="_blank">
                     <span class="shadow-2xl rounded-xl overflow-hidden inline-block ">
                         <img decoding="async" width="500" height="649" src="/img/LSS-Brochure-2023-cover-500.jpg"
@@ -181,5 +181,8 @@
                 </a>
             </div>
         </div>
+    </div>
+    <div class="relative py-12 lg:py-[4%] xl:py-14">
+
     </div>
 @endsection
