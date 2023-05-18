@@ -20,7 +20,9 @@
 <body class=antialiased>
     @include('layouts.mobile-pro-menu')
     @include('layouts.header')
-    @yield('content')
+    <main class="relative z-10">
+        @yield('content')
+    </main>
     @include('layouts.footer')
     <script src={{ asset('js/app.js') }}></script>
 </body>
