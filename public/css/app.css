@@ -2902,6 +2902,9 @@ video {
 .mb-7 {
   margin-bottom: 1.75rem;
 }
+.mb-12 {
+  margin-bottom: 3rem;
+}
 .block {
   display: block;
 }
@@ -2964,6 +2967,9 @@ video {
 }
 .max-w-\[550px\] {
   max-width: 550px;
+}
+.max-w-\[80px\] {
+  max-width: 80px;
 }
 .flex-1 {
   flex: 1 1 0%;
@@ -3146,6 +3152,9 @@ video {
 .bg-\[url\(\/img\/snowflakes_background_341073425-RGB-2000\.jpg\)\] {
   background-image: url(/img/snowflakes_background_341073425-RGB-2000.jpg);
 }
+.bg-\[url\(\/img\/girl_giftbnox_rightside_246299896\.jpg\)\] {
+  background-image: url(/img/girl_giftbnox_rightside_246299896.jpg);
+}
 .bg-cover {
   background-size: cover;
 }
@@ -3160,6 +3169,9 @@ video {
 }
 .bg-\[center_bottom\] {
   background-position: center bottom;
+}
+.bg-\[right_center\] {
+  background-position: right center;
 }
 .bg-no-repeat {
   background-repeat: no-repeat;
@@ -3247,6 +3259,15 @@ video {
 }
 .pt-\[10vw\] {
   padding-top: 10vw;
+}
+.pr-\[10\%\] {
+  padding-right: 10%;
+}
+.pt-12 {
+  padding-top: 3rem;
+}
+.pt-14 {
+  padding-top: 3.5rem;
 }
 .text-center {
   text-align: center;
@@ -3509,6 +3530,13 @@ body {
   opacity: 1;
 }
 
+@media (min-width: 640px) {
+
+  .sm\:flex-row {
+    flex-direction: row;
+  }
+}
+
 @media (min-width: 1024px) {
 
   .lg\:mx-0 {
@@ -3522,6 +3550,10 @@ body {
 
   .lg\:mb-0 {
     margin-bottom: 0px;
+  }
+
+  .lg\:mr-\[5\%\] {
+    margin-right: 5%;
   }
 
   .lg\:block {
@@ -3562,6 +3594,18 @@ body {
     padding-bottom: 4%;
   }
 
+  .lg\:pl-\[10\%\] {
+    padding-left: 10%;
+  }
+
+  .lg\:pr-0 {
+    padding-right: 0px;
+  }
+
+  .lg\:pt-\[4\%\] {
+    padding-top: 4%;
+  }
+
   .lg\:text-left {
     text-align: left;
   }
@@ -3594,5 +3638,9 @@ body {
   .xl\:py-7 {
     padding-top: 1.75rem;
     padding-bottom: 1.75rem;
+  }
+
+  .xl\:pt-14 {
+    padding-top: 3.5rem;
   }
 }

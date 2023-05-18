@@ -167,7 +167,9 @@
                     </div>
                 </div>
                 <div class="flex items-center justify-center mt-12">
-                    <a href="/lss-brochure" class="text-white rounded-3xl text-sm uppercase tracking-widest bg-[#d0202f] py-4 px-7 shadow-lg">View Catalog</a>
+                    <a href="/lss-brochure"
+                        class="text-white rounded-3xl text-sm uppercase tracking-widest bg-[#d0202f] py-4 px-7 shadow-lg">View
+                        Catalog</a>
                 </div>
             </div>
             <div class="lg:w-[35%] mx-auto lg:mx-0">
@@ -182,7 +184,92 @@
             </div>
         </div>
     </div>
-    <div class="relative py-12 lg:py-[4%] xl:py-14">
-
+    <div class="relative pt-14">
+        <div class="flex flex-col lg:flex-row items-start justify-center">
+            <div class="flex-1 lg:mr-[5%] pl-[10%] pr-[10%] mb-7 lg:mb-0 lg:pr-0">
+                <div class="mb-7">
+                    <h2 class="text-4xl font-bold text-black leading-relaxed">How does the Lil’ Shopper’s Shoppe work?</h2>
+                    <p class="text-black leading-loose">Just Sign Up and we will send a Chairperson Kit with everything you
+                        need. We will send you the gift merchandise and whatever you do not sell, just send back. It is that
+                        easy!</p>
+                </div>
+                <div class="mb-7 flex justify-between items-start flex-col sm:flex-row">
+                    <div class="flex-1">
+                        <div class="mb-5 max-w-[80px]">
+                            <span>
+                                <img decoding="async" width="512" height="512"
+                                    src="/img/cropped-LSS-Logo-NC-150.png" alt="" title=""
+                                    srcset="/img/cropped-LSS-Logo-NC-150.png 512w, /img/cropped-LSS-Logo-NC-150-150x150.png 150w, /img/cropped-LSS-Logo-NC-150-300x300.png 300w, /img/cropped-LSS-Logo-NC-150-270x270.png 270w, /img/cropped-LSS-Logo-NC-150-192x192.png 192w, /img/cropped-LSS-Logo-NC-150-180x180.png 180w, /img/cropped-LSS-Logo-NC-150-32x32.png 32w"
+                                    sizes="(max-width: 512px) 100vw, 512px">
+                            </span>
+                        </div>
+                        <div>
+                            <h4 class="text-2xl font-bold leading-relaxed text-[#333] mb-2">Step One</h4>
+                            <p class="text-base leading-loose">Sign Up and select your dates, profit and bonus.</p>
+                        </div>
+                    </div>
+                    <div class="flex-1">
+                        <div class="mb-5 max-w-[80px]">
+                            <span>
+                                <img decoding="async" width="512" height="512"
+                                    src="/img/cropped-LSS-Logo-NC-150.png" alt="" title=""
+                                    srcset="/img/cropped-LSS-Logo-NC-150.png 512w, /img/cropped-LSS-Logo-NC-150-150x150.png 150w, /img/cropped-LSS-Logo-NC-150-300x300.png 300w, /img/cropped-LSS-Logo-NC-150-270x270.png 270w, /img/cropped-LSS-Logo-NC-150-192x192.png 192w, /img/cropped-LSS-Logo-NC-150-180x180.png 180w, /img/cropped-LSS-Logo-NC-150-32x32.png 32w"
+                                    sizes="(max-width: 512px) 100vw, 512px">
+                            </span>
+                        </div>
+                        <div>
+                            <h4 class="text-2xl font-bold leading-relaxed text-[#333] mb-2">Step Two</h4>
+                            <p class="text-base leading-loose">Chairperson Kit will be sent with everything you need to run
+                                your Holiday Shop.</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="mb-12 flex justify-between items-start flex-col sm:flex-row">
+                    <div class="flex-1">
+                        <div class="mb-5 max-w-[80px]">
+                            <span>
+                                <img decoding="async" width="512" height="512"
+                                    src="/img/cropped-LSS-Logo-NC-150.png" alt="" title=""
+                                    srcset="/img/cropped-LSS-Logo-NC-150.png 512w, /img/cropped-LSS-Logo-NC-150-150x150.png 150w, /img/cropped-LSS-Logo-NC-150-300x300.png 300w, /img/cropped-LSS-Logo-NC-150-270x270.png 270w, /img/cropped-LSS-Logo-NC-150-192x192.png 192w, /img/cropped-LSS-Logo-NC-150-180x180.png 180w, /img/cropped-LSS-Logo-NC-150-32x32.png 32w"
+                                    sizes="(max-width: 512px) 100vw, 512px">
+                            </span>
+                        </div>
+                        <div>
+                            <h4 class="text-2xl font-bold leading-relaxed text-[#333] mb-2">Step Three</h4>
+                            <p class="text-base leading-loose">Merchandise arrives with tent cards, bags and tablecloths.
+                            </p>
+                        </div>
+                    </div>
+                    <div class="flex-1">
+                        <div class="mb-5 max-w-[80px]">
+                            <span>
+                                <img decoding="async" width="512" height="512"
+                                    src="/img/cropped-LSS-Logo-NC-150.png" alt="" title=""
+                                    srcset="/img/cropped-LSS-Logo-NC-150.png 512w, /img/cropped-LSS-Logo-NC-150-150x150.png 150w, /img/cropped-LSS-Logo-NC-150-300x300.png 300w, /img/cropped-LSS-Logo-NC-150-270x270.png 270w, /img/cropped-LSS-Logo-NC-150-192x192.png 192w, /img/cropped-LSS-Logo-NC-150-180x180.png 180w, /img/cropped-LSS-Logo-NC-150-32x32.png 32w"
+                                    sizes="(max-width: 512px) 100vw, 512px">
+                            </span>
+                        </div>
+                        <div>
+                            <h4 class="text-2xl font-bold leading-relaxed text-[#333] mb-2">Step Four</h4>
+                            <p class="text-base leading-loose">Send back what you did not sell.</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="flex justify-center">
+                    <a href="/steps-to-success"
+                        class="text-white rounded-3xl text-sm uppercase tracking-widest bg-[#d0202f] py-4 px-7 shadow-lg">
+                        Learn More
+                    </a>
+                </div>
+            </div>
+            <div class="flex-1 bg-[right_center] bg-no-repeat bg-cover bg-[url(/img/girl_giftbnox_rightside_246299896.jpg)]">
+                <span>
+                    <img decoding="async" width="1280" height="1423" src="/img/upperleft-round-arc.png"
+                        alt="" title=""
+                        srcset="/img/upperleft-round-arc.png 1280w, /img/upperleft-round-arc-980x1089.png 980w, /img/upperleft-round-arc-480x534.png 480w"
+                        sizes="(min-width: 0px) and (max-width: 480px) 480px, (min-width: 481px) and (max-width: 980px) 980px, (min-width: 981px) 1280px, 100vw" />
+                </span>
+            </div>
+        </div>
     </div>
 @endsection
