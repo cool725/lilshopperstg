@@ -5,7 +5,7 @@
     <div class="relative py-12 lg:py-[4%] xl:py-14">
         <span class="absolute top-0 bottom-0 left-0 right-0 overflow-hidden">
             <span
-                class="block w-full absolute bottom-0 left-0 bg-[url('/img/kid-floor-gift-2000x1100-nb-wht.jpg')] bg-no-repeat bg-top bg-cover"
+                class="hero-img block w-full absolute bottom-0 left-0 bg-[url('/img/kid-floor-gift-2000x1100-nb-wht.jpg')] bg-no-repeat bg-top bg-cover"
                 style="height: 956.612px; transform: translate(0px, 280.519px);"></span>
         </span>
         <div class="relative w-4/5 max-w-5xl mx-auto py-7 lg:py-[2%] xl:py-7">
@@ -193,9 +193,9 @@
                         need. We will send you the gift merchandise and whatever you do not sell, just send back. It is that
                         easy!</p>
                 </div>
-                <div class="mb-7 flex justify-between items-start flex-col sm:flex-row">
+                <div class="mb-7 flex justify-between items-center sm:items-start flex-col sm:flex-row">
                     <div class="flex-1 mb-7 sm:mb-0">
-                        <div class="mb-5 max-w-80">
+                        <div class="mb-5 max-w-80 mx-auto sm:mx-0">
                             <span>
                                 <img decoding="async" width="512" height="512"
                                     src="/img/cropped-LSS-Logo-NC-150.png" alt="" title=""
@@ -204,12 +204,12 @@
                             </span>
                         </div>
                         <div>
-                            <h4 class="text-xl sm:text-2xl font-bold leading-relaxed text-[#333] mb-2">Step One</h4>
-                            <p class="text-sm sm:text-base leading-loose">Sign Up and select your dates, profit and bonus.</p>
+                            <h4 class="text-xl sm:text-2xl text-center sm:text-left font-bold leading-relaxed text-[#333] mb-2">Step One</h4>
+                            <p class="text-sm sm:text-base text-center sm:text-left leading-loose">Sign Up and select your dates, profit and bonus.</p>
                         </div>
                     </div>
                     <div class="flex-1">
-                        <div class="mb-5 max-w-80">
+                        <div class="mb-5 max-w-80 mx-auto sm:mx-0">
                             <span>
                                 <img decoding="async" width="512" height="512"
                                     src="/img/cropped-LSS-Logo-NC-150.png" alt="" title=""
@@ -218,15 +218,15 @@
                             </span>
                         </div>
                         <div>
-                            <h4 class="text-xl sm:text-2xl font-bold leading-relaxed text-[#333] mb-2">Step Two</h4>
-                            <p class="text-sm sm:text-base leading-loose">Chairperson Kit will be sent with everything you need to run
+                            <h4 class="text-xl sm:text-2xl text-center sm:text-left font-bold leading-relaxed text-[#333] mb-2">Step Two</h4>
+                            <p class="text-sm sm:text-base text-center sm:text-left leading-loose">Chairperson Kit will be sent with everything you need to run
                                 your Holiday Shop.</p>
                         </div>
                     </div>
                 </div>
-                <div class="mb-12 flex justify-between items-start flex-col sm:flex-row">
+                <div class="mb-12 flex justify-between items-center sm:items-start flex-col sm:flex-row">
                     <div class="flex-1 mb-7 sm:mb-0">
-                        <div class="mb-5 max-w-80">
+                        <div class="mb-5 max-w-80 mx-auto sm:mx-0">
                             <span>
                                 <img decoding="async" width="512" height="512"
                                     src="/img/cropped-LSS-Logo-NC-150.png" alt="" title=""
@@ -235,13 +235,13 @@
                             </span>
                         </div>
                         <div>
-                            <h4 class="text-xl sm:text-2xl font-bold leading-relaxed text-[#333] mb-2">Step Three</h4>
-                            <p class="text-sm sm:text-base leading-loose">Merchandise arrives with tent cards, bags and tablecloths.
+                            <h4 class="text-xl sm:text-2xl text-center sm:text-left font-bold leading-relaxed text-[#333] mb-2">Step Three</h4>
+                            <p class="text-sm sm:text-base text-center sm:text-left leading-loose">Merchandise arrives with tent cards, bags and tablecloths.
                             </p>
                         </div>
                     </div>
                     <div class="flex-1">
-                        <div class="mb-5 max-w-80">
+                        <div class="mb-5 max-w-80 mx-auto sm:mx-0">
                             <span>
                                 <img decoding="async" width="512" height="512"
                                     src="/img/cropped-LSS-Logo-NC-150.png" alt="" title=""
@@ -250,8 +250,8 @@
                             </span>
                         </div>
                         <div>
-                            <h4 class="text-xl sm:text-2xl font-bold leading-relaxed text-[#333] mb-2">Step Four</h4>
-                            <p class="text-sm sm:text-base leading-loose">Send back what you did not sell.</p>
+                            <h4 class="text-xl sm:text-2xl text-center sm:text-left font-bold leading-relaxed text-[#333] mb-2">Step Four</h4>
+                            <p class="text-sm sm:text-base text-center sm:text-left leading-loose">Send back what you did not sell.</p>
                         </div>
                     </div>
                 </div>
@@ -340,4 +340,36 @@
             </a>
         </div>
     </div>
+    @push('scripts')
+        <script>
+            var elm = document.querySelector('.hero-img');
+            var onScroll = (function() {
+                var startPos;
+
+                function run() {
+                    var fromTop = window.pageYOffset,
+                        rect = elm.getBoundingClientRect(),
+                        scrollDelta;
+
+                    // check if element is in viewport
+                    if ((rect.top - window.innerHeight) <= 0 && rect.bottom > 0)
+                        startPos = startPos === undefined ? fromTop : startPos;
+                    else {
+                        startPos = 0;
+                        return;
+                    }
+
+                    scrollDelta = ((fromTop - startPos) * 1 / 3 + 220); // "speed" per scrolled frame
+                    elm.style.transform = `translateY(${scrollDelta}px)`;
+                }
+
+                run();
+
+                return run;
+            })()
+
+            window.addEventListener('scroll', onScroll);
+        </script>
+    @endpush
+    @stack('scripts')
 @endsection

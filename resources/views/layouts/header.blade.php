@@ -1,4 +1,4 @@
-<header>
+<header class="shadow-2xl min-h-[224px]">
     <div class="py-7 flex flex-col lg:flex-row justify-center">
         <div class="lg:w-1/4">
             <p class="text-center text-xl text-[#666] font-medium best-world-logo">Presented by</p>
