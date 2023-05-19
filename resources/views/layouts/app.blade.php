@@ -20,8 +20,10 @@
 <body class=antialiased>
     @include('layouts.mobile-pro-menu')
     @include('layouts.header')
-    <main class="relative z-10">
-        @yield('content')
+    <main class="relative z-10" x-data="{ shown: false }" x-intersect:enter="shown = true">
+        <div x-cloak x-show="shown">
+            @yield('content')
+        </div>
     </main>
     @include('layouts.footer')
     <script src={{ asset('js/app.js') }}></script>

@@ -4,14 +4,17 @@
 @section('content')
     <div class="relative py-12 lg:py-[4%] xl:py-14">
         <span class="absolute top-0 bottom-0 left-0 right-0 overflow-hidden">
-            <span
-                class="hero-img block w-full absolute bottom-0 left-0 bg-[url('/img/kid-floor-gift-2000x1100-nb-wht.jpg')] bg-no-repeat bg-top bg-cover"
-                style="height: 956.612px; transform: translate(0px, 280.519px);"></span>
+            <span data-aos="fade-in">
+                <span
+                    class="hero-img block w-full absolute bottom-0 left-0 bg-[url('/img/kid-floor-gift-2000x1100-nb-wht.jpg')] bg-no-repeat bg-top bg-cover"
+                    style="height: 956.612px; transform: translate(0px, 280.519px);"></span>
+            </span>
         </span>
         <div class="relative w-4/5 max-w-5xl mx-auto py-7 lg:py-[2%] xl:py-7">
             <div class="max-w-500">
-                <img decoding="async" width="949" height="949" src="/img/LSS-Logo-LG-nocenter.png" alt=""
-                    title="" srcset="/img/LSS-Logo-LG-nocenter.png 949w, /img/LSS-Logo-LG-nocenter-480x480.png 480w"
+                <img data-aos="fade-up" data-aos-duration="1000" decoding="async" width="949" height="949"
+                    src="/img/LSS-Logo-LG-nocenter.png" alt="" title=""
+                    srcset="/img/LSS-Logo-LG-nocenter.png 949w, /img/LSS-Logo-LG-nocenter-480x480.png 480w"
                     sizes="(min-width: 0px) and (max-width: 480px) 480px, (min-width: 481px) 949px, 100vw" />
             </div>
         </div>
@@ -22,7 +25,7 @@
     <div class="relative py-12 lg:py-[4%] xl:py-14">
         <div class="w-4/5 max-w-7xl mx-auto py-7 lg:py-[2%] xl:py-7 flex flex-col lg:flex-row items-start justify-between">
             <ul class="flex-1 w-full lg:mr-[8%]">
-                <li class="bg-white rounded-xl p-7 shadow-lg mb-11">
+                <li data-aos="zoom-in" class="bg-white rounded-xl p-7 shadow-lg mb-11">
                     <div class="flex flex-col sm:flex-row lg:flex-col xl:flex-row max-w-550 break-words">
                         <div class="mb-4 sm:mb-0 sm:mr-4 lg:mb-4 lg:mr-0 xl:mb-0 xl:mr-4">
                             <a href="/holiday-shop-gifts">
@@ -44,7 +47,7 @@
                         </div>
                     </div>
                 </li>
-                <li class="bg-white rounded-xl p-7 shadow-lg mb-11">
+                <li data-aos="zoom-in" class="bg-white rounded-xl p-7 shadow-lg mb-11">
                     <div class="flex flex-col sm:flex-row lg:flex-col xl:flex-row max-w-550 break-words">
                         <div class="mb-4 sm:mb-0 sm:mr-4 lg:mb-4 lg:mr-0 xl:mb-0 xl:mr-4">
                             <a href="/holiday-shop-gifts">
@@ -66,7 +69,7 @@
                         </div>
                     </div>
                 </li>
-                <li class="bg-white rounded-xl p-7 shadow-lg mb-11">
+                <li data-aos="zoom-in" class="bg-white rounded-xl p-7 shadow-lg mb-11">
                     <div class="flex flex-col sm:flex-row lg:flex-col xl:flex-row max-w-550 break-words">
                         <div class="mb-4 sm:mb-0 sm:mr-4 lg:mb-4 lg:mr-0 xl:mb-0 xl:mr-4">
                             <a href="/holiday-shop-gifts">
@@ -90,9 +93,10 @@
                 </li>
             </ul>
             <div class="flex-1">
-                <div class="p-9 pt-0 text-center">
+                <div data-aos="zoom-in" class="p-9 pt-0 text-center">
                     <div class="mb-5">
-                        <h1 class="text-xl sm:text-4xl font-bold text-[#333] mb-2">Lil' Shopper's Shoppe Introduction Video</h1>
+                        <h1 class="text-xl sm:text-4xl font-bold text-[#333] mb-2">Lil' Shopper's Shoppe Introduction Video
+                        </h1>
                         <p class="text-sm sm:text-base">
                             This video is a great overview of how our Lil’ Shopper’s Shoppe works and was recorded to show
                             you
@@ -111,7 +115,7 @@
                         </a>
                     </div>
                 </div>
-                <div>
+                <div data-aos="zoom-in">
                     <a href="https://youtu.be/1wBeBPNUdeo" target="_blank">
                         <span>
                             <img decoding="async" width="700" height="425" src="/img/video-lss-intro-img-2022.jpg"
@@ -132,8 +136,10 @@
             class="w-4/5 max-w-7xl mx-auto p-[2vw] rounded-lg shadow-xl flex flex-col lg:flex-row items-start justify-between bg-white">
             <div class="lg:w-[56%] lg:mr-[5%] flex-1 mb-7 lg:mb-0">
                 <div class="mb-[4%]">
-                    <h2 class="text-xl sm:text-4xl font-bold text-black leading-relaxed">Lil’ Shopper’s Shoppe Gift Catalog</h2>
-                    <p class="text-black leading-loose text-sm sm:text-base">Are you looking for school holiday shop items that are high quality
+                    <h2 class="text-xl sm:text-4xl font-bold text-black leading-relaxed">Lil’ Shopper’s Shoppe Gift Catalog
+                    </h2>
+                    <p class="text-black leading-loose text-sm sm:text-base">Are you looking for school holiday shop items
+                        that are high quality
                         and
                         priced within a child’s budget? 85% of our Santa shop gift are $5 or less. Lil’ Shopper’s Shoppe
                         makes it easy! We supply your in-school holiday shop with a large inventory of Santa shop
@@ -145,7 +151,7 @@
                 <div class="mb-[5%] text-[#d0202f]">
                     <div class="max-w-550 mx-auto">
                         <div class="flex items-center">
-                            <i class="fa fa-check-circle" aria-hidden="true"></i>
+                            <i data-aos="zoom-in" class="fa fa-check-circle" aria-hidden="true"></i>
                             <h4 class="pl-4 font-bold text-sm">Gifts for Mom, Grandma & Aunt</h4>
                         </div>
                     </div>
@@ -153,7 +159,7 @@
                 <div class="mb-[5%] text-[#d0202f]">
                     <div class="max-w-550 mx-auto">
                         <div class="flex items-center">
-                            <i class="fa fa-check-circle" aria-hidden="true"></i>
+                            <i data-aos="zoom-in" class="fa fa-check-circle" aria-hidden="true"></i>
                             <h4 class="pl-4 font-bold text-sm">Gifts for Dad, Grandpa, Uncle & Teacher</h4>
                         </div>
                     </div>
@@ -161,7 +167,7 @@
                 <div class="mb-[5%] text-[#d0202f]">
                     <div class="max-w-550 mx-auto">
                         <div class="flex items-center">
-                            <i class="fa fa-check-circle" aria-hidden="true"></i>
+                            <i data-aos="zoom-in" class="fa fa-check-circle" aria-hidden="true"></i>
                             <h4 class="pl-4 font-bold text-sm">Gifts for Kids</h4>
                         </div>
                     </div>
@@ -174,7 +180,7 @@
             </div>
             <div class="lg:w-[35%] mx-auto lg:mx-0">
                 <a href="/lss-brochure" target="_blank">
-                    <span class="shadow-2xl rounded-xl overflow-hidden inline-block ">
+                    <span data-aos="zoom-in" class="shadow-2xl rounded-xl overflow-hidden inline-block ">
                         <img decoding="async" width="500" height="649" src="/img/LSS-Brochure-2023-cover-500.jpg"
                             alt="" title=""
                             srcset="/img/LSS-Brochure-2023-cover-500.jpg 500w, /img/LSS-Brochure-2023-cover-500-480x623.jpg 480w"
@@ -188,14 +194,16 @@
         <div class="flex flex-col lg:flex-row items-start justify-center">
             <div class="flex-1 lg:mr-[5%] pl-[10%] pr-[10%] mb-7 lg:mb-0 lg:pr-0">
                 <div class="mb-7">
-                    <h2 class="text-xl sm:text-4xl font-bold text-black leading-relaxed">How does the Lil’ Shopper’s Shoppe work?</h2>
-                    <p class="text-black leading-loose text-sm sm:text-base">Just Sign Up and we will send a Chairperson Kit with everything you
+                    <h2 class="text-xl sm:text-4xl font-bold text-black leading-relaxed">How does the Lil’ Shopper’s Shoppe
+                        work?</h2>
+                    <p class="text-black leading-loose text-sm sm:text-base">Just Sign Up and we will send a Chairperson
+                        Kit with everything you
                         need. We will send you the gift merchandise and whatever you do not sell, just send back. It is that
                         easy!</p>
                 </div>
                 <div class="mb-7 flex justify-between items-center sm:items-start flex-col sm:flex-row">
                     <div class="flex-1 mb-7 sm:mb-0">
-                        <div class="mb-5 max-w-80 mx-auto sm:mx-0">
+                        <div data-aos="zoom-in" class="mb-5 max-w-80 mx-auto sm:mx-0">
                             <span>
                                 <img decoding="async" width="512" height="512"
                                     src="/img/cropped-LSS-Logo-NC-150.png" alt="" title=""
@@ -204,12 +212,15 @@
                             </span>
                         </div>
                         <div>
-                            <h4 class="text-xl sm:text-2xl text-center sm:text-left font-bold leading-relaxed text-[#333] mb-2">Step One</h4>
-                            <p class="text-sm sm:text-base text-center sm:text-left leading-loose">Sign Up and select your dates, profit and bonus.</p>
+                            <h4
+                                class="text-xl sm:text-2xl text-center sm:text-left font-bold leading-relaxed text-[#333] mb-2">
+                                Step One</h4>
+                            <p class="text-sm sm:text-base text-center sm:text-left leading-loose">Sign Up and select your
+                                dates, profit and bonus.</p>
                         </div>
                     </div>
                     <div class="flex-1">
-                        <div class="mb-5 max-w-80 mx-auto sm:mx-0">
+                        <div data-aos="zoom-in" class="mb-5 max-w-80 mx-auto sm:mx-0">
                             <span>
                                 <img decoding="async" width="512" height="512"
                                     src="/img/cropped-LSS-Logo-NC-150.png" alt="" title=""
@@ -218,15 +229,18 @@
                             </span>
                         </div>
                         <div>
-                            <h4 class="text-xl sm:text-2xl text-center sm:text-left font-bold leading-relaxed text-[#333] mb-2">Step Two</h4>
-                            <p class="text-sm sm:text-base text-center sm:text-left leading-loose">Chairperson Kit will be sent with everything you need to run
+                            <h4
+                                class="text-xl sm:text-2xl text-center sm:text-left font-bold leading-relaxed text-[#333] mb-2">
+                                Step Two</h4>
+                            <p class="text-sm sm:text-base text-center sm:text-left leading-loose">Chairperson Kit will be
+                                sent with everything you need to run
                                 your Holiday Shop.</p>
                         </div>
                     </div>
                 </div>
                 <div class="mb-12 flex justify-between items-center sm:items-start flex-col sm:flex-row">
                     <div class="flex-1 mb-7 sm:mb-0">
-                        <div class="mb-5 max-w-80 mx-auto sm:mx-0">
+                        <div data-aos="zoom-in" class="mb-5 max-w-80 mx-auto sm:mx-0">
                             <span>
                                 <img decoding="async" width="512" height="512"
                                     src="/img/cropped-LSS-Logo-NC-150.png" alt="" title=""
@@ -235,13 +249,16 @@
                             </span>
                         </div>
                         <div>
-                            <h4 class="text-xl sm:text-2xl text-center sm:text-left font-bold leading-relaxed text-[#333] mb-2">Step Three</h4>
-                            <p class="text-sm sm:text-base text-center sm:text-left leading-loose">Merchandise arrives with tent cards, bags and tablecloths.
+                            <h4
+                                class="text-xl sm:text-2xl text-center sm:text-left font-bold leading-relaxed text-[#333] mb-2">
+                                Step Three</h4>
+                            <p class="text-sm sm:text-base text-center sm:text-left leading-loose">Merchandise arrives with
+                                tent cards, bags and tablecloths.
                             </p>
                         </div>
                     </div>
                     <div class="flex-1">
-                        <div class="mb-5 max-w-80 mx-auto sm:mx-0">
+                        <div data-aos="zoom-in" class="mb-5 max-w-80 mx-auto sm:mx-0">
                             <span>
                                 <img decoding="async" width="512" height="512"
                                     src="/img/cropped-LSS-Logo-NC-150.png" alt="" title=""
@@ -250,8 +267,11 @@
                             </span>
                         </div>
                         <div>
-                            <h4 class="text-xl sm:text-2xl text-center sm:text-left font-bold leading-relaxed text-[#333] mb-2">Step Four</h4>
-                            <p class="text-sm sm:text-base text-center sm:text-left leading-loose">Send back what you did not sell.</p>
+                            <h4
+                                class="text-xl sm:text-2xl text-center sm:text-left font-bold leading-relaxed text-[#333] mb-2">
+                                Step Four</h4>
+                            <p class="text-sm sm:text-base text-center sm:text-left leading-loose">Send back what you did
+                                not sell.</p>
                         </div>
                     </div>
                 </div>
@@ -279,11 +299,14 @@
             <div>
                 <div class="max-w-[800px] bg-[#E2E2E2]/20 p-7 sm:p-12 leading-loose text-center mx-auto mb-10">
                     <div class="et_pb_text_inner">
-                        <h3 class="text-xl sm:text-3xl text-[#333] font-bold leading-relaxed mb-2">Are you ready to run your School
+                        <h3 class="text-xl sm:text-3xl text-[#333] font-bold leading-relaxed mb-2">Are you ready to run
+                            your School
                             Holiday Shop this year?</h3>
-                        <h4 class="text-base sm:text-xl text-[#d0202f] font-bold leading-relaxed mb-2">Let Us Guide You Through the
+                        <h4 class="text-base sm:text-xl text-[#d0202f] font-bold leading-relaxed mb-2">Let Us Guide You
+                            Through the
                             Process!</h4>
-                        <p class="text-sm sm:text-base leading-loose">With our simple online form, sign up with us this year and a
+                        <p class="text-sm sm:text-base leading-loose">With our simple online form, sign up with us this
+                            year and a
                             representative will contact you to
                             go over all the details with you. We are here to help!</p>
                     </div>
@@ -297,7 +320,7 @@
             </div>
         </div>
     </div>
-    <div class="my-16 px-[12%] bg-[#f9f9f4] bg-[radial-gradient(circle at center,#f9f9f4 80%,#ffffff 100%)]">
+    <div data-aos="zoom-in" class="my-16 px-[12%] bg-[#f9f9f4] bg-[radial-gradient(circle at center,#f9f9f4 80%,#ffffff 100%)]">
         <div class="sm:w-4/5 sm:max-w-5xl mx-auto py-7">
             <div class="max-w-500 mx-auto text-center">
                 <h3 class="text-xl sm:text-3xl text-[#333] font-bold leading-relaxed mb-2">Contact Representative</h3>

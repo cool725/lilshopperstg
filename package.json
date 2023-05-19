@@ -10,6 +10,7 @@
         "production": "mix --production"
     },
     "devDependencies": {
+        "@alpinejs/intersect": "^3.12.1",
         "alpinejs": "^3.12.1",
         "autoprefixer": "^10.4.14",
         "axios": "^0.21",
@@ -18,5 +19,8 @@
         "lodash": "^4.17.19",
         "postcss": "^8.4.23",
         "tailwindcss": "^3.3.2"
+    },
+    "dependencies": {
+        "aos": "^3.0.0-beta.6"
     }
 }

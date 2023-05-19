@@ -22,3 +22,7 @@ body {
 .best-world-logo {
   font-family: 'Cooperplate-Gothic-Bold', Helvetica, Arial, Lucida, sans-serif;
 }
+
+[x-cloak] {
+  display: none !important;
+}
