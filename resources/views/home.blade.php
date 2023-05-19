@@ -130,10 +130,10 @@
         </div>
         <div
             class="w-4/5 max-w-7xl mx-auto p-[2vw] rounded-lg shadow-xl flex flex-col lg:flex-row items-start justify-between bg-white">
-            <div class="lg:w-[56%] mr-[5%] flex-1 mb-7 lg:mb-0">
+            <div class="lg:w-[56%] lg:mr-[5%] flex-1 mb-7 lg:mb-0">
                 <div class="mb-[4%]">
-                    <h2 class="text-4xl font-bold text-black leading-relaxed">Lil’ Shopper’s Shoppe Gift Catalog</h2>
-                    <p class="text-black leading-loose">Are you looking for school holiday shop items that are high quality
+                    <h2 class="text-xl sm:text-4xl font-bold text-black leading-relaxed">Lil’ Shopper’s Shoppe Gift Catalog</h2>
+                    <p class="text-black leading-loose text-sm sm:text-base">Are you looking for school holiday shop items that are high quality
                         and
                         priced within a child’s budget? 85% of our Santa shop gift are $5 or less. Lil’ Shopper’s Shoppe
                         makes it easy! We supply your in-school holiday shop with a large inventory of Santa shop
