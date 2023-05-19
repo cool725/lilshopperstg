@@ -188,14 +188,14 @@
         <div class="flex flex-col lg:flex-row items-start justify-center">
             <div class="flex-1 lg:mr-[5%] pl-[10%] pr-[10%] mb-7 lg:mb-0 lg:pr-0">
                 <div class="mb-7">
-                    <h2 class="text-4xl font-bold text-black leading-relaxed">How does the Lil’ Shopper’s Shoppe work?</h2>
-                    <p class="text-black leading-loose">Just Sign Up and we will send a Chairperson Kit with everything you
+                    <h2 class="text-xl sm:text-4xl font-bold text-black leading-relaxed">How does the Lil’ Shopper’s Shoppe work?</h2>
+                    <p class="text-black leading-loose text-sm sm:text-base">Just Sign Up and we will send a Chairperson Kit with everything you
                         need. We will send you the gift merchandise and whatever you do not sell, just send back. It is that
                         easy!</p>
                 </div>
                 <div class="mb-7 flex justify-between items-start flex-col sm:flex-row">
-                    <div class="flex-1">
-                        <div class="mb-5 max-w-550">
+                    <div class="flex-1 mb-7 sm:mb-0">
+                        <div class="mb-5 max-w-80">
                             <span>
                                 <img decoding="async" width="512" height="512"
                                     src="/img/cropped-LSS-Logo-NC-150.png" alt="" title=""
@@ -204,8 +204,8 @@
                             </span>
                         </div>
                         <div>
-                            <h4 class="text-2xl font-bold leading-relaxed text-[#333] mb-2">Step One</h4>
-                            <p class="text-base leading-loose">Sign Up and select your dates, profit and bonus.</p>
+                            <h4 class="text-xl sm:text-2xl font-bold leading-relaxed text-[#333] mb-2">Step One</h4>
+                            <p class="text-sm sm:text-base leading-loose">Sign Up and select your dates, profit and bonus.</p>
                         </div>
                     </div>
                     <div class="flex-1">
@@ -218,14 +218,14 @@
                             </span>
                         </div>
                         <div>
-                            <h4 class="text-2xl font-bold leading-relaxed text-[#333] mb-2">Step Two</h4>
-                            <p class="text-base leading-loose">Chairperson Kit will be sent with everything you need to run
+                            <h4 class="text-xl sm:text-2xl font-bold leading-relaxed text-[#333] mb-2">Step Two</h4>
+                            <p class="text-sm sm:text-base leading-loose">Chairperson Kit will be sent with everything you need to run
                                 your Holiday Shop.</p>
                         </div>
                     </div>
                 </div>
                 <div class="mb-12 flex justify-between items-start flex-col sm:flex-row">
-                    <div class="flex-1">
+                    <div class="flex-1 mb-7 sm:mb-0">
                         <div class="mb-5 max-w-80">
                             <span>
                                 <img decoding="async" width="512" height="512"
@@ -235,8 +235,8 @@
                             </span>
                         </div>
                         <div>
-                            <h4 class="text-2xl font-bold leading-relaxed text-[#333] mb-2">Step Three</h4>
-                            <p class="text-base leading-loose">Merchandise arrives with tent cards, bags and tablecloths.
+                            <h4 class="text-xl sm:text-2xl font-bold leading-relaxed text-[#333] mb-2">Step Three</h4>
+                            <p class="text-sm sm:text-base leading-loose">Merchandise arrives with tent cards, bags and tablecloths.
                             </p>
                         </div>
                     </div>
@@ -250,8 +250,8 @@
                             </span>
                         </div>
                         <div>
-                            <h4 class="text-2xl font-bold leading-relaxed text-[#333] mb-2">Step Four</h4>
-                            <p class="text-base leading-loose">Send back what you did not sell.</p>
+                            <h4 class="text-xl sm:text-2xl font-bold leading-relaxed text-[#333] mb-2">Step Four</h4>
+                            <p class="text-sm sm:text-base leading-loose">Send back what you did not sell.</p>
                         </div>
                     </div>
                 </div>

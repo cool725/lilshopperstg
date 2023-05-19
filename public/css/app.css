@@ -3603,6 +3603,11 @@ body {
   .sm\:text-\[32px\] {
     font-size: 32px;
   }
+
+  .sm\:text-2xl {
+    font-size: 1.5rem;
+    line-height: 2rem;
+  }
 }
 
 @media (min-width: 768px) {
