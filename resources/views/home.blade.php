@@ -275,15 +275,15 @@
     </div>
     <div class="bg-[#d0202f] relative py-12 lg:py-[4%] xl:py-14">
         <div
-            class="w-4/5 max-w-7xl mx-auto pt-32 pb-7 px-14 md:px-28 bg-white bg-contain bg-right-top bg-no-repeat bg-[url(/img/santa-upperright-1433.png)]">
+            class="w-4/5 max-w-7xl mx-auto py-7 md:pt-32 px-7 sm:px-14 md:px-28 bg-white bg-contain bg-right-top bg-no-repeat bg-[url(/img/santa-upperright-1433.png)]">
             <div>
-                <div class="max-w-[800px] bg-[#E2E2E2]/20 p-12 leading-loose text-center mx-auto mb-10">
+                <div class="max-w-[800px] bg-[#E2E2E2]/20 p-7 sm:p-12 leading-loose text-center mx-auto mb-10">
                     <div class="et_pb_text_inner">
-                        <h3 class="text-3xl text-[#333] font-bold leading-relaxed mb-2">Are you ready to run your School
+                        <h3 class="text-xl sm:text-3xl text-[#333] font-bold leading-relaxed mb-2">Are you ready to run your School
                             Holiday Shop this year?</h3>
-                        <h4 class="text-xl text-[#d0202f] font-bold leading-relaxed mb-2">Let Us Guide You Through the
+                        <h4 class="text-base sm:text-xl text-[#d0202f] font-bold leading-relaxed mb-2">Let Us Guide You Through the
                             Process!</h4>
-                        <p class="text-base leading-loose">With our simple online form, sign up with us this year and a
+                        <p class="text-sm sm:text-base leading-loose">With our simple online form, sign up with us this year and a
                             representative will contact you to
                             go over all the details with you. We are here to help!</p>
                     </div>
@@ -298,14 +298,14 @@
         </div>
     </div>
     <div class="my-16 px-[12%] bg-[#f9f9f4] bg-[radial-gradient(circle at center,#f9f9f4 80%,#ffffff 100%)]">
-        <div class="w-4/5 max-w-5xl mx-auto py-7">
+        <div class="sm:w-4/5 sm:max-w-5xl mx-auto py-7">
             <div class="max-w-500 mx-auto text-center">
-                <h3 class="text-3xl text-[#333] font-bold leading-relaxed mb-2">Contact Representative</h3>
-                <b class="text-xl leading-6 ">Better World Fundraising</b>
+                <h3 class="text-xl sm:text-3xl text-[#333] font-bold leading-relaxed mb-2">Contact Representative</h3>
+                <b class="text-base sm:text-xl leading-6 ">Better World Fundraising</b>
             </div>
         </div>
-        <div class="w-4/5 max-w-5xl mx-auto py-7 flex flex-col lg:flex-row justify-between">
-            <div class="flex items-start mx-auto lg:mx-0 mb-8 lg:mb-0 w-full lg:w-[30%] max-w-xs lg:max-w-none">
+        <div class="sm:w-4/5 sm:max-w-5xl mx-auto py-7 flex flex-col lg:flex-row justify-between">
+            <div class="flex items-start mx-auto lg:mx-0 mb-8 lg:mb-0 w-full lg:w-[30%] sm:max-w-xs lg:max-w-none">
                 <div class="w-8 h-8 text-base leading-none text-white text-center bg-[#f5ba6a] p-2 rounded-full mr-4">
                     <i class="fa fa-envelope" aria-hidden="true"></i>
                 </div>
@@ -314,7 +314,7 @@
                     <p class="text-sm">wecare@betterworldfundraising.com</p>
                 </div>
             </div>
-            <div class="flex items-start mx-auto lg:mx-0 mb-8 lg:mb-0 w-full lg:w-[30%] max-w-xs lg:max-w-none">
+            <div class="flex items-start mx-auto lg:mx-0 mb-8 lg:mb-0 w-full lg:w-[30%] sm:max-w-xs lg:max-w-none">
                 <div class="w-8 h-8 text-base leading-none text-white text-center bg-[#f5ba6a] p-2 rounded-full mr-4">
                     <i class="fa fa-phone" aria-hidden="true"></i>
                 </div>
@@ -323,7 +323,7 @@
                     <p class="text-sm">(888) 871-5742</p>
                 </div>
             </div>
-            <div class="flex items-start mx-auto lg:mx-0 mb-8 lg:mb-0 w-full lg:w-[30%] max-w-xs lg:max-w-none">
+            <div class="flex items-start mx-auto lg:mx-0 mb-8 lg:mb-0 w-full lg:w-[30%] sm:max-w-xs lg:max-w-none">
                 <div class="w-8 h-8 text-base leading-none text-white text-center bg-[#f5ba6a] p-2 rounded-full mr-4">
                     <i class="fa fa-map-marker" aria-hidden="true"></i>
                 </div>
@@ -333,9 +333,9 @@
                 </div>
             </div>
         </div>
-        <div class="w-4/5 max-w-5xl mx-auto py-7 flex justify-center">
+        <div class="sm:w-4/5 sm:max-w-5xl mx-auto py-7 flex justify-center">
             <a href="/steps-to-success"
-                class="text-white rounded-3xl text-sm uppercase tracking-widest bg-[#d0202f] py-4 px-7 shadow-lg">
+                class="text-white rounded-3xl text-sm uppercase tracking-widest text-center bg-[#d0202f] py-4 px-7 shadow-lg">
                 Schedule a Free Consultation
             </a>
         </div>
