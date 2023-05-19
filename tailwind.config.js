@@ -5,7 +5,13 @@ module.exports = {
     "./resources/**/*.js",
   ],
   theme: {
-    extend: {},
+    extend: {
+      maxWidth: {
+        '550': '550px',
+        '500': '500px',
+        '80': '80px',
+      }
+    },
   },
   plugins: [],
 }
