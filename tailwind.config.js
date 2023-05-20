@@ -11,7 +11,10 @@ module.exports = {
         '550': '550px',
         '500': '500px',
         '80': '80px',
-      }
+      },
+      fontFamily: {
+        'league-script': ['League Script', 'cursive'],
+      },
     },
   },
   plugins: [],

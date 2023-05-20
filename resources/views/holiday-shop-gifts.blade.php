@@ -1,5 +1,5 @@
 @extends('layouts.app')
-@section('title', 'Price Codes')
+@section('title', 'Holiday Shop Gifts')
 
 @section('content')
     <div class="mt-12 px-5 text-center">
@@ -36,7 +36,7 @@
                 <h1 class="text-2xl md:text-4xl font-extrabold">MOM, GRANDMA & AUNT GIFTS</h1>
             </div>
             <div class="grid sm:grid-cols-2 md:grid-cols-3 xl:grid-cols-4 gap-14">
-                @foreach ($monGifts as $gift)
+                @foreach ($momGifts as $gift)
                     <div class="flex flex-col">
                         <div class="mb-2 bg-white rounded-xl shadow-xl">
                             <a href="/img/gifts/{{ $gift['id'] }}.jpg" title="#1 MOM PVC KEYCHAIN">

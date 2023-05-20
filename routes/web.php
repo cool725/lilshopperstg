@@ -17,7 +17,7 @@ Route::get('/', function () {
     return view('home');
 });
 Route::get('/holiday-shop-gifts', function () {
-    $monGifts = [
+    $momGifts = [
         [
             'id' => 'K4-0203',
             'type' => 'M2-1',
@@ -85,7 +85,7 @@ Route::get('/holiday-shop-gifts', function () {
     ];
 
     return view('holiday-shop-gifts', [
-        'monGifts' => $monGifts,
+        'momGifts' => $momGifts,
         'dadGifts' => $dadGifts,
         'childGifts' => $childGifts,
     ]);
@@ -95,4 +95,8 @@ Route::get('/price-codes', function () {
 });
 Route::get('/merchandise-guarantee', function () {
     return view('merchandise-guarantee');
+});
+
+Route::get('/online-access', function () {
+    return view('online-access');
 });
