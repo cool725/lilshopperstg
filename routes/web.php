@@ -100,3 +100,6 @@ Route::get('/merchandise-guarantee', function () {
 Route::get('/online-access', function () {
     return view('online-access');
 });
+Route::get('/cash-register-app', function () {
+    return view('cash-register-app');
+});

@@ -4,7 +4,7 @@
 @section('content')
     <div class="relative py-12 lg:py-[4%] xl:py-14">
         <span class="absolute top-0 bottom-0 left-0 right-0 overflow-hidden">
-            <span data-aos="fade-in" data-aos-mirror="true">
+            <span data-aos="fade-in" data-aos-mirror="true" data-aos-anchor-placement="bottom-center">
                 <span
                     class="hero-img block w-full absolute bottom-0 left-0 bg-[url('/img/kid-floor-gift-2000x1100-nb-wht.jpg')] bg-no-repeat bg-top bg-cover"
                     style="height: 956.612px; transform: translate(0px, 280.519px);"></span>
@@ -320,7 +320,8 @@
             </div>
         </div>
     </div>
-    <div data-aos="zoom-in" class="my-16 px-[12%] bg-[#f9f9f4] bg-[radial-gradient(circle at center,#f9f9f4 80%,#ffffff 100%)]">
+    <div data-aos="zoom-in"
+        class="my-16 px-[12%] bg-[#f9f9f4] bg-[radial-gradient(circle at center,#f9f9f4 80%,#ffffff 100%)]">
         <div class="sm:w-4/5 sm:max-w-5xl mx-auto py-7">
             <div class="max-w-500 mx-auto text-center">
                 <h3 class="text-xl sm:text-3xl text-[#333] font-bold leading-relaxed mb-2">Contact Representative</h3>
