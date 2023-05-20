@@ -8,8 +8,7 @@
                 <img decoding="async" width="2000" height="1000" src="/img/ornaments_2000_code_1862224615.jpg" alt=""
                     title=""
                     srcset="/img/ornaments_2000_code_1862224615.jpg 2000w, /img/ornaments_2000_code_1862224615-1280x640.jpg 1280w, /img/ornaments_2000_code_1862224615-980x490.jpg 980w, /img/ornaments_2000_code_1862224615-480x240.jpg 480w"
-                    sizes="(min-width: 0px) and (max-width: 480px) 480px, (min-width: 481px) and (max-width: 980px) 980px, (min-width: 981px) and (max-width: 1280px) 1280px, (min-width: 1281px) 2000px, 100vw"
-                    class="wp-image-264408">
+                    sizes="(min-width: 0px) and (max-width: 480px) 480px, (min-width: 481px) and (max-width: 980px) 980px, (min-width: 981px) and (max-width: 1280px) 1280px, (min-width: 1281px) 2000px, 100vw" >
             </div>
             <div class="text-center">
                 <h1 class="text-3xl sm:text-5xl font-bold text-neutral-700 uppercase text-shadow">Pick Your Profit &amp; Pre-Coded Gifts

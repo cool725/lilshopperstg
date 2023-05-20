@@ -5,11 +5,10 @@
     <div class="mb-12">
         <div class="w-4/5 max-w-[800px] mx-auto pb-7">
             <div class="mb-6">
-                <img data-aos="fade-down" class="-z-10 relative" decoding="async" width="2000" height="1340"
+                <img data-aos="fade-down" data-aos-mirror="true" class="-z-10 relative" decoding="async" width="2000" height="1340"
                     src="/img/guarantee_2000_104790368.jpg" alt="100% Satisfaction Guaranteed on a gold starburst"
                     srcset="/img/guarantee_2000_104790368.jpg 2000w, /img/guarantee_2000_104790368-1280x858.jpg 1280w, /img/guarantee_2000_104790368-980x657.jpg 980w, /img/guarantee_2000_104790368-480x322.jpg 480w"
-                    sizes="(min-width: 0px) and (max-width: 480px) 480px, (min-width: 481px) and (max-width: 980px) 980px, (min-width: 981px) and (max-width: 1280px) 1280px, (min-width: 1281px) 2000px, 100vw"
-                    class="et-waypoint et_pb_animation_top et_pb_animation_top_tablet et_pb_animation_top_phone wp-image-264410 et-animated">
+                    sizes="(min-width: 0px) and (max-width: 480px) 480px, (min-width: 481px) and (max-width: 980px) 980px, (min-width: 981px) and (max-width: 1280px) 1280px, (min-width: 1281px) 2000px, 100vw">
             </div>
             <div class="text-center">
                 <h1 class="text-3xl sm:text-5xl font-bold text-neutral-700 uppercase text-shadow">Our Guarantee</h1>

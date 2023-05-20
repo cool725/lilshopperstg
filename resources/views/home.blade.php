@@ -4,7 +4,7 @@
 @section('content')
     <div class="relative py-12 lg:py-[4%] xl:py-14">
         <span class="absolute top-0 bottom-0 left-0 right-0 overflow-hidden">
-            <span data-aos="fade-in">
+            <span data-aos="fade-in" data-aos-mirror="true">
                 <span
                     class="hero-img block w-full absolute bottom-0 left-0 bg-[url('/img/kid-floor-gift-2000x1100-nb-wht.jpg')] bg-no-repeat bg-top bg-cover"
                     style="height: 956.612px; transform: translate(0px, 280.519px);"></span>
@@ -12,7 +12,7 @@
         </span>
         <div class="relative w-4/5 max-w-5xl mx-auto py-7 lg:py-[2%] xl:py-7">
             <div class="max-w-500">
-                <img data-aos="fade-up" decoding="async" width="949" height="949"
+                <img data-aos="fade-up" data-aos-mirror="true" decoding="async" width="949" height="949"
                     src="/img/LSS-Logo-LG-nocenter.png" alt="" title=""
                     srcset="/img/LSS-Logo-LG-nocenter.png 949w, /img/LSS-Logo-LG-nocenter-480x480.png 480w"
                     sizes="(min-width: 0px) and (max-width: 480px) 480px, (min-width: 481px) 949px, 100vw" />
