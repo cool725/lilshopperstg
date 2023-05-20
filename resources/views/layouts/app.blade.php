@@ -5,7 +5,7 @@
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
 
-    <title>Lil' Shopper's Shoppe | @yield('title')</title>
+    <title>@yield('title') | Lil' Shopper's Shoppe</title>
 
     <!-- Fonts -->
     <link rel="preconnect" href="https://fonts.googleapis.com">
