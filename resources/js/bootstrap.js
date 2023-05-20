@@ -3,14 +3,14 @@ import intersect from "@alpinejs/intersect";
 import AOS from "aos";
 import "aos/dist/aos.css"; // You can also use <link> for styles
 
-window.Alpine = Alpine;
-
-Alpine.plugin(intersect);
-Alpine.start();
-
 AOS.init({
     duration: 1000,
 });
+
+Alpine.plugin(intersect);
+
+window.Alpine = Alpine;
+Alpine.start();
 
 window._ = require("lodash");
 

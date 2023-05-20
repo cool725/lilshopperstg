@@ -12,7 +12,7 @@
         </span>
         <div class="relative w-4/5 max-w-5xl mx-auto py-7 lg:py-[2%] xl:py-7">
             <div class="max-w-500">
-                <img data-aos="fade-up" data-aos-duration="1000" decoding="async" width="949" height="949"
+                <img data-aos="fade-up" decoding="async" width="949" height="949"
                     src="/img/LSS-Logo-LG-nocenter.png" alt="" title=""
                     srcset="/img/LSS-Logo-LG-nocenter.png 949w, /img/LSS-Logo-LG-nocenter-480x480.png 480w"
                     sizes="(min-width: 0px) and (max-width: 480px) 480px, (min-width: 481px) 949px, 100vw" />

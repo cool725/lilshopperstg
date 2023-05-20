@@ -130,7 +130,7 @@
             </ul>
         </nav>
         {{-- mobile menu --}}
-        <div class="block lg:hidden flex-1" x-cloak>
+        <div class="block lg:hidden flex-1">
             <div x-data="{ expanded: false }" class="relative flex justify-center ">
                 <button class="text-[#c20d33] text-2xl" @click="expanded = !expanded">
                     <i class="fa fa-bars" aria-hidden="true"></i>
