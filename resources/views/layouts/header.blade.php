@@ -1,4 +1,4 @@
-<header class="shadow-2xl min-h-[224px]">
+<header class="bg-white shadow-2xl min-h-[224px] relative z-30">
     <div class="py-7 flex flex-col lg:flex-row justify-center">
         <div class="lg:w-1/4">
             <p class="text-center text-xl text-[#666] font-medium best-world-logo">Presented by</p>
@@ -118,7 +118,8 @@
                 </li>
                 <li class="mt-2 px-3">
                     <a target="_blank" rel="noopener" href="http://signup.holidayshop.org/signup/GNT"
-                        class="hover:opacity-70 transition-all duration-500 ease-in-out pb-2 whitespace-nowrap">Sign Up
+                        class="hover:opacity-70 transition-all duration-500 ease-in-out pb-2 whitespace-nowrap">Sign
+                        Up
                         Now</a>
                 </li>
                 <li class="mt-2 px-3">
@@ -134,66 +135,92 @@
                 <button class="text-[#c20d33] text-2xl" @click="expanded = !expanded">
                     <i class="fa fa-bars" aria-hidden="true"></i>
                 </button>
-                <ul
-                  x-cloak
-                  x-show="expanded"
-                  x-transition:enter-start="opacity-0 scale-y-0 -translate-y-1/2"
-                  x-transition:enter-end="opacity-100 scale-y-100 translate-y-0"
-                  x-transition:leave-start="opacity-100 scale-y-100 translate-y-0"
-                  x-transition:leave-end="opacity-0 scale-y-0 -translate-y-1/2"
-                  class="absolute z-50 bg-white left-0 right-0 top-full p-[5%] border-t-4 border-[#cd5c5c] shadow leading-7 transform transition-all duration-500 ease-in-out">
+                <ul x-cloak x-show="expanded" x-transition:enter-start="opacity-0 scale-y-0 -translate-y-1/2"
+                    x-transition:enter-end="opacity-100 scale-y-100 translate-y-0"
+                    x-transition:leave-start="opacity-100 scale-y-100 translate-y-0"
+                    x-transition:leave-end="opacity-0 scale-y-0 -translate-y-1/2"
+                    class="absolute z-50 bg-white left-0 right-0 top-full p-[5%] border-t-4 border-[#cd5c5c] shadow leading-7 transform transition-all duration-500 ease-in-out">
                     <li>
-                        <a href="/" aria-current="page" class="text-base font-extrabold uppercase leading-8 border-b border-black/5 text-[#666] py-2 px-[5%] block hover:opacity-70 hover:bg-black/5 transition-all duration-200 ease-in-out">Home</a>
+                        <a href="/" aria-current="page"
+                            class="text-base font-extrabold uppercase leading-8 border-b border-black/5 text-[#666] py-2 px-[5%] block hover:opacity-70 hover:bg-black/5 transition-all duration-200 ease-in-out">Home</a>
                     </li>
                     <li>
-                        <a href="/holiday-shop-gifts" class="text-base font-extrabold uppercase leading-8 border-b border-black/5 text-[#666] py-2 px-[5%] block bg-black/5 hover:opacity-70 transition-all duration-200 ease-in-out">View Our Gifts</a>
+                        <a href="/holiday-shop-gifts"
+                            class="text-base font-extrabold uppercase leading-8 border-b border-black/5 text-[#666] py-2 px-[5%] block bg-black/5 hover:opacity-70 transition-all duration-200 ease-in-out">View
+                            Our Gifts</a>
                         <ul>
                             <li class="pl-[5%]">
-                                <a href="/holiday-shop-gifts" class="text-base font-extrabold uppercase leading-8 border-b border-black/5 text-[#666] py-2 px-[5%] block hover:opacity-70 hover:bg-black/5 transition-all duration-200 ease-in-out">Holiday Shop Gifts</a>
+                                <a href="/holiday-shop-gifts"
+                                    class="text-base font-extrabold uppercase leading-8 border-b border-black/5 text-[#666] py-2 px-[5%] block hover:opacity-70 hover:bg-black/5 transition-all duration-200 ease-in-out">Holiday
+                                    Shop Gifts</a>
                             </li>
                             <li class="pl-[5%]">
-                                <a href="/price-codes" class="text-base font-extrabold uppercase leading-8 border-b border-black/5 text-[#666] py-2 px-[5%] block hover:opacity-70 hover:bg-black/5 transition-all duration-200 ease-in-out">Profit &amp; Pre-Coded Gifts</a>
+                                <a href="/price-codes"
+                                    class="text-base font-extrabold uppercase leading-8 border-b border-black/5 text-[#666] py-2 px-[5%] block hover:opacity-70 hover:bg-black/5 transition-all duration-200 ease-in-out">Profit
+                                    &amp; Pre-Coded Gifts</a>
                             </li>
                             <li class="pl-[5%]">
-                                <a href="/merchandise-guarantee" class="text-base font-extrabold uppercase leading-8 border-b border-black/5 text-[#666] py-2 px-[5%] block hover:opacity-70 hover:bg-black/5 transition-all duration-200 ease-in-out">Merchandise Guarantee</a>
+                                <a href="/merchandise-guarantee"
+                                    class="text-base font-extrabold uppercase leading-8 border-b border-black/5 text-[#666] py-2 px-[5%] block hover:opacity-70 hover:bg-black/5 transition-all duration-200 ease-in-out">Merchandise
+                                    Guarantee</a>
                             </li>
                         </ul>
                     </li>
                     <li>
-                        <a href="/online-access" class="text-base font-extrabold uppercase leading-8 border-b border-black/5 text-[#666] py-2 px-[5%] block bg-black/5 hover:opacity-70 transition-all duration-200 ease-in-out">Online Access</a>
+                        <a href="/online-access"
+                            class="text-base font-extrabold uppercase leading-8 border-b border-black/5 text-[#666] py-2 px-[5%] block bg-black/5 hover:opacity-70 transition-all duration-200 ease-in-out">Online
+                            Access</a>
                         <ul>
                             <li class="pl-[5%]">
-                                <a href="/online-access" class="text-base font-extrabold uppercase leading-8 border-b border-black/5 text-[#666] py-2 px-[5%] block hover:opacity-70 hover:bg-black/5 transition-all duration-200 ease-in-out">Online Access</a>
+                                <a href="/online-access"
+                                    class="text-base font-extrabold uppercase leading-8 border-b border-black/5 text-[#666] py-2 px-[5%] block hover:opacity-70 hover:bg-black/5 transition-all duration-200 ease-in-out">Online
+                                    Access</a>
                             </li>
-                            <li class="pl-[5%]" class="text-base font-extrabold uppercase leading-8 border-b border-black/5 text-[#666] py-2 px-[5%] block hover:opacity-70 hover:bg-black/5 transition-all duration-200 ease-in-out">
-                                <a href="/cash-register-app" class="text-base font-extrabold uppercase leading-8 border-b border-black/5 text-[#666] py-2 px-[5%] block hover:opacity-70 hover:bg-black/5 transition-all duration-200 ease-in-out">Cash Register App</a>
+                            <li class="pl-[5%]"
+                                class="text-base font-extrabold uppercase leading-8 border-b border-black/5 text-[#666] py-2 px-[5%] block hover:opacity-70 hover:bg-black/5 transition-all duration-200 ease-in-out">
+                                <a href="/cash-register-app"
+                                    class="text-base font-extrabold uppercase leading-8 border-b border-black/5 text-[#666] py-2 px-[5%] block hover:opacity-70 hover:bg-black/5 transition-all duration-200 ease-in-out">Cash
+                                    Register App</a>
                             </li>
                         </ul>
                     </li>
                     <li>
-                        <a href="/sign-up-bonus" class="text-base font-extrabold uppercase leading-8 border-b border-black/5 text-[#666] py-2 px-[5%] block bg-black/5 hover:opacity-70 transition-all duration-200 ease-in-out">Sign Up Bonus</a>
+                        <a href="/sign-up-bonus"
+                            class="text-base font-extrabold uppercase leading-8 border-b border-black/5 text-[#666] py-2 px-[5%] block bg-black/5 hover:opacity-70 transition-all duration-200 ease-in-out">Sign
+                            Up Bonus</a>
                         <ul>
                             <li class="pl-[5%]">
-                                <a href="/sign-up-bonus" class="text-base font-extrabold uppercase leading-8 border-b border-black/5 text-[#666] py-2 px-[5%] block hover:opacity-70 hover:bg-black/5 transition-all duration-200 ease-in-out">Sign Up Bonus</a>
+                                <a href="/sign-up-bonus"
+                                    class="text-base font-extrabold uppercase leading-8 border-b border-black/5 text-[#666] py-2 px-[5%] block hover:opacity-70 hover:bg-black/5 transition-all duration-200 ease-in-out">Sign
+                                    Up Bonus</a>
                             </li>
                             <li class="pl-[5%]">
-                                <a href="/steps-to-success" class="text-base font-extrabold uppercase leading-8 border-b border-black/5 text-[#666] py-2 px-[5%] block hover:opacity-70 hover:bg-black/5 transition-all duration-200 ease-in-out">Steps to Success</a>
+                                <a href="/steps-to-success"
+                                    class="text-base font-extrabold uppercase leading-8 border-b border-black/5 text-[#666] py-2 px-[5%] block hover:opacity-70 hover:bg-black/5 transition-all duration-200 ease-in-out">Steps
+                                    to Success</a>
                             </li>
                             <li class="pl-[5%]">
-                                <a href="/free-supplies" class="text-base font-extrabold uppercase leading-8 border-b border-black/5 text-[#666] py-2 px-[5%] block hover:opacity-70 hover:bg-black/5 transition-all duration-200 ease-in-out">Free Shipping &amp; Supplies</a>
+                                <a href="/free-supplies"
+                                    class="text-base font-extrabold uppercase leading-8 border-b border-black/5 text-[#666] py-2 px-[5%] block hover:opacity-70 hover:bg-black/5 transition-all duration-200 ease-in-out">Free
+                                    Shipping &amp; Supplies</a>
                             </li>
                         </ul>
                     </li>
                     <li>
-                        <a href="/gift-certificates" class="text-base font-extrabold uppercase leading-8 border-b border-black/5 text-[#666] py-2 px-[5%] block hover:opacity-70 hover:bg-black/5 transition-all duration-200 ease-in-out">Gift Certificates</a>
+                        <a href="/gift-certificates"
+                            class="text-base font-extrabold uppercase leading-8 border-b border-black/5 text-[#666] py-2 px-[5%] block hover:opacity-70 hover:bg-black/5 transition-all duration-200 ease-in-out">Gift
+                            Certificates</a>
                     </li>
                     <li>
-                        <a target="_blank" rel="noopener" href="http://signup.holidayshop.org/signup/GNT"  class="text-base font-extrabold uppercase leading-8 border-b border-black/5 text-[#666] py-2 px-[5%] block hover:opacity-70 hover:bg-black/5 transition-all duration-200 ease-in-out">
-                          Sign Up Now
+                        <a target="_blank" rel="noopener" href="http://signup.holidayshop.org/signup/GNT"
+                            class="text-base font-extrabold uppercase leading-8 border-b border-black/5 text-[#666] py-2 px-[5%] block hover:opacity-70 hover:bg-black/5 transition-all duration-200 ease-in-out">
+                            Sign Up Now
                         </a>
                     </li>
                     <li>
-                        <a href="https://chairperson.holidayshop.org" class="text-base font-extrabold uppercase leading-8 border-b border-black/5 text-[#666] py-2 px-[5%] block hover:opacity-70 hover:bg-black/5 transition-all duration-200 ease-in-out">Chairperson Login</a>
+                        <a href="https://chairperson.holidayshop.org"
+                            class="text-base font-extrabold uppercase leading-8 border-b border-black/5 text-[#666] py-2 px-[5%] block hover:opacity-70 hover:bg-black/5 transition-all duration-200 ease-in-out">Chairperson
+                            Login</a>
                     </li>
                 </ul>
             </div>

@@ -19,3 +19,6 @@ Route::get('/', function () {
 Route::get('/price-codes', function () {
     return view('price-codes');
 });
+Route::get('/merchandise-guarantee', function () {
+    return view('merchandise-guarantee');
+});
