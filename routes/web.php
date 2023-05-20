@@ -103,3 +103,7 @@ Route::get('/online-access', function () {
 Route::get('/cash-register-app', function () {
     return view('cash-register-app');
 });
+
+Route::get('/sign-up-bonus', function () {
+    return view('sign-up-bonus');
+});
