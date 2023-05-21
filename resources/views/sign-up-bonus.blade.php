@@ -6,9 +6,9 @@
         <div class="absolute inset-0 overflow-auto ">
             <div class="bg-[url(/img/123rf_xmas_126209840.jpg)]"></div>
         </div>
-        <div class="w-4/5 max-w-[950px] mx-auto flex rounded-lg shadow-lg relative z-10 bg-green-800 py-7">
-            <div class="w-[175px]" data-aos="zoom-in" data-aos-mirror="true">
-                <div class="w-[275px] -translate-x-28">
+        <div class="w-4/5 max-w-[950px] mx-auto flex flex-col lg:flex-row rounded-lg shadow-lg relative z-10 bg-green-800 py-7">
+            <div class="lg:w-[175px]" data-aos="zoom-in" data-aos-mirror="true">
+                <div class="w-[275px] mx-auto lg:-translate-x-28">
                     <img decoding="async" width="300" height="450" src="/img/boyjumping_336092294_300w.png"
                         alt="Young boy jumping for joy" title=""
                         srcset="/img/boyjumping_336092294_300w.png 300w, /img/boyjumping_336092294_300w-200x300.png 200w"
@@ -16,10 +16,10 @@
                 </div>
             </div>
             <div class="flex-1 text-center text-white px-10">
-                <h1 class="text-shadow text-5xl font-bold text-yellow-300 mb-6">
+                <h1 class="text-shadow text-2xl md:text-5xl font-bold text-yellow-300 mb-6">
                     EARLY SIGN-UP BONUS
                 </h1>
-                <h2 class="text-3xl  font-bold mb-2">
+                <h2 class="text-lg md:text-3xl font-bold mb-2">
                     Sign up by July 4th and receive: $300 Carnival Kit, Cash Register APP and choose a Bonus!
                 </h2>
                 <ul class="text-lg font-semibold text-left list-disc my-7">

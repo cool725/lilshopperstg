@@ -45,7 +45,7 @@
 
     </div>
     <div class="bg-[#e8bb27]">
-        <div class="w-4/5 max-w-5xl mx-auto py-7">
+        <div class="md:w-4/5 max-w-5xl mx-auto py-7 px-3 md:px-0">
             <div class="flex flex-col lg:flex-row mb-7">
                 <div class="w-1/3 mr-7">
                     <img decoding="async" width="544" height="344" src="/img/lss-gc-3fan.png"
@@ -69,7 +69,7 @@
                 </div>
             </div>
             <div class="bg-white p-6 rounded-lg border-2 border-black shadow-lg shadow-neutral-500">
-                <h1 class="mb-7 text-4xl font-bold text-neutral-800">
+                <h1 class="mb-7 text-2xl lg:text-4xl font-bold text-neutral-800">
                     Questions & Answers
                 </h1>
                 <div class="mb-7">
