@@ -107,3 +107,6 @@ Route::get('/cash-register-app', function () {
 Route::get('/sign-up-bonus', function () {
     return view('sign-up-bonus');
 });
+Route::get('/steps-to-success', function () {
+    return view('steps-to-success');
+});
