@@ -110,3 +110,6 @@ Route::get('/sign-up-bonus', function () {
 Route::get('/steps-to-success', function () {
     return view('steps-to-success');
 });
+Route::get('/free-supplies', function () {
+    return view('free-supplies');
+});
