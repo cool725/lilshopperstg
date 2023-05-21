@@ -113,3 +113,7 @@ Route::get('/steps-to-success', function () {
 Route::get('/free-supplies', function () {
     return view('free-supplies');
 });
+
+Route::get('/gift-certificates', function () {
+    return view('gift-certificates');
+});

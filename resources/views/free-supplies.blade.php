@@ -1,5 +1,5 @@
 @extends('layouts.app')
-@section('title', 'Merchandise Guarantee')
+@section('title', 'Free Supplies')
 
 @section('content')
     <div class="my-14">
