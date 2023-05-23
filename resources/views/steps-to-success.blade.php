@@ -21,7 +21,7 @@
                     <h1 class="text-3xl sm:text-4xl lg:text-6xl text-center lg:text-left font-bold uppercase mb-2">
                         STEP ONE
                     </h1>
-                    <div class="flex">
+                    <div class="flex justify-center lg:justify-start">
                         <a class="text-gray-700 hover:text-white text-base sm:text-lg font-bold uppercase leading-7 tracking-widest py-2 lg:py-4 px-4 lg:px-7 bg-white hover:bg-green-800 rounded-3xl shadow-lg transition-all duration-300 ease-in"
                             href="http://signup.holidayshop.org/signup/?cID=GNT" target="_blank">
                             Sign Up

@@ -27,7 +27,7 @@
         <h3 class="mb-2 text-lg lg:text-2xl text-neutral-800 font-bold">
             We make set up as easy as possible:
         </h3>
-        <p class="mb-4 text-lg text-zinc-500">Every box that arrives at the School will have its own packing slip on top
+        <p class="mb-4 text-base md:text-lg text-zinc-500">Every box that arrives at the School will have its own packing slip on top
             so there is no need to share a master inventory sheet or wondering what is in the box. A chairperson last
             year said that we carry multiple “Rings” and that pictures would be helpful in recognizing the different
             items. Each packing inventory list has images of each item next to the description and quantity to make

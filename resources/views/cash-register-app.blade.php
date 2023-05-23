@@ -71,15 +71,15 @@
             <h2 class="text-3xl text-neutral-800 font-extrabold mb-5">
                 ACCEPT CONTACTLESS PAYMENTS WITH ONLY AN IPHONE.
             </h2>
-            <h3 class="text-xl text-neutral-800 font-bold">
+            <h3 class="text-xl text-neutral-800 font-bold mb-2">
                 Tap to Pay on iPhone is now available in the Holiday Shop Cash Register app.
             </h3>
-            <p class="text-lg mb-5">
+            <p class="text-base md:text-lg mb-5">
                 To use Tap to Pay on iPhone, simply download the Holiday Shop Cash Register app, select Credit Card Payment
                 and Tap to Pay to start accepting in-person contactless payments right on your iPhone. No extra terminals or
                 hardware needed.
             </p>
-            <p class="text-lg mb-14">
+            <p class="text-base md:text-lg mb-14">
                 If you don’t have an iPhone or don’t want to use Tap to Pay, our app will accept credit cards without using
                 this function.
             </p>
