@@ -46,12 +46,13 @@
     </div>
     <div class="bg-[#e8bb27]">
         <div class="md:w-4/5 max-w-5xl mx-auto py-7 px-3 md:px-0">
-            <div class="flex flex-col lg:flex-row mb-7">
-                <div class="w-1/3 mr-7">
+            <div class="flex flex-col lg:flex-row mb-7 items-center lg:items-start">
+                <div class="w-full md:w-2/3 lg:w-1/3 mb-4 lg:mb-0 lg:mr-7">
                     <img decoding="async" width="544" height="344" src="/img/lss-gc-3fan.png"
                         alt="Lil' Shopper's Shoppe Gift Certificates" title=""
                         srcset="/img/lss-gc-3fan.png 544w, /img/lss-gc-3fan-480x304.png 480w"
-                        sizes="(min-width: 0px) and (max-width: 480px) 480px, (min-width: 481px) 544px, 100vw">
+                        sizes="(min-width: 0px) and (max-width: 480px) 480px, (min-width: 481px) 544px, 100vw"
+                        class="mx-auto">
                 </div>
                 <div class="flex-1">
                     <p class="text-lg text-neutral-800">

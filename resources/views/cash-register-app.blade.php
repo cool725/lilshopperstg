@@ -2,7 +2,7 @@
 @section('title', 'Cash Register App')
 
 @section('content')
-    <div class="sm:mt-14 md:mt-36 pb-24 pt-12 bg-[url(/img/mobile-app_85.png)] bg-[center_top] bg-cover bg-amber-400">
+    <div class="sm:mt-14 md:mt-36 pb-24 pt-12 bg-[url(/img/mobile-app_85.png)] bg-[center_top] bg-cover bg-[#eab450]">
         <div class="py-6 w-4/5 mx-auto flex flex-col lg:flex-row">
             <div class="flex-1 mr-12 relative">
                 <div class="relative top-[6vw] -left-[28%] mb-[5%] w-1/2">
@@ -176,13 +176,13 @@
         </div>
     </div>
     <div class="relative my-24 max-w-7xl lg:w-4/5 mx-auto px-8 lg:px-0">
-        <div class="p-8 flex shadow-lg shadow-neutral-300">
+        <div class="p-8 flex flex-col sm:flex-row items-center sm:items-start shadow-lg shadow-neutral-300">
             <div
                 class="absolute -top-7 left-1/2 -translate-x-7 w-14 h-14 border-4 border-neutral-600 rounded-full text-3xl flex justify-center items-center">
                 <i class="fa fa-quote-right" aria-hidden="true"></i>
             </div>
 
-            <div class="w-[90px] h-[90px] mr-8 rounded-full border bg-cover bg-[url(/img/teacher-053122.png)]">
+            <div class="w-[90px] h-[90px] mb-5 sm:mb-0 sm:mr-8 rounded-full border bg-cover bg-[url(/img/teacher-053122.png)]">
             </div>
 
             <div class="flex-1">

@@ -17,7 +17,7 @@
                         class="lg:translate-y-[35px]">
                 </div>
             </div>
-            <div class="flex-1 px-14 text-black">
+            <div class="flex-1 px-4 sm:px-14 text-black">
                 <h2 class="text-center md:text-left text-3xl md:text-5xl font-bold uppercase mb-2">SANTA-APPROVED SCHOOL
                     HOLIDAY SHOP GIFTS</h2>
                 <p class="text-base font-normal mb-4">

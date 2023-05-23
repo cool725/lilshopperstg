@@ -18,7 +18,7 @@
                     </div>
                 </div>
                 <div class="flex-1">
-                    <h1 class="text-4xl lg:text-6xl text-center lg:text-left font-bold uppercase mb-2">
+                    <h1 class="text-3xl sm:text-4xl lg:text-6xl text-center lg:text-left font-bold uppercase mb-2">
                         STEP ONE
                     </h1>
                     <div class="flex">
@@ -27,7 +27,7 @@
                             Sign Up
                         </a>
                     </div>
-                    <p class="font-bold text-base my-2">
+                    <p class="font-bold text-base my-2 text-center sm:text-left">
                         SIGN UP ONLINE OR CONTACT US:
                     </p>
                     <ul class="list-disc ml-4 lg:ml-0">
@@ -53,10 +53,10 @@
             <div
                 class="p-7 lg:p-0 lg:pt-14 lg:pb-12 lg:pl-7 mb-20 flex flex-col-reverse lg:flex-row bg-rose-700 border border-black text-white">
                 <div class="flex-1">
-                    <h1 class="text-4xl lg:text-6xl text-center lg:text-left font-bold uppercase mb-2">
+                    <h1 class="text-3xl sm:text-4xl lg:text-6xl text-center lg:text-left font-bold uppercase mb-2">
                         STEP TWO
                     </h1>
-                    <p class="font-bold text-base my-2">
+                    <p class="font-bold text-base my-2 text-center sm:text-left">
                         CHAIRPERSON KIT ARRIVES:
                     </p>
                     <ul class="list-disc ml-4">
@@ -100,10 +100,10 @@
                     </div>
                 </div>
                 <div class="flex-1">
-                    <h1 class="text-4xl lg:text-6xl text-center lg:text-left font-bold uppercase mb-2">
+                    <h1 class="text-3xl sm:text-4xl lg:text-6xl text-center lg:text-left font-bold uppercase mb-2">
                         STEP THREE
                     </h1>
-                    <p class="font-bold text-base my-2">
+                    <p class="font-bold text-base my-2 text-center sm:text-left">
                         GIFTS ARRIVE:
                     </p>
                     <ul class="list-disc ml-4 lg:ml-0">
@@ -125,10 +125,10 @@
             <div
                 class="p-7 lg:p-0 lg:pt-14 lg:pb-12 lg:pl-7 mb-20 flex flex-col-reverse lg:flex-row bg-rose-700 border border-black text-white">
                 <div class="flex-1">
-                    <h1 class="text-4xl lg:text-6xl text-center lg:text-left font-bold uppercase mb-2">
+                    <h1 class="text-3xl sm:text-4xl lg:text-6xl text-center lg:text-left font-bold uppercase mb-2">
                         STEP FOUR
                     </h1>
-                    <p class="font-bold text-base my-2">
+                    <p class="font-bold text-base my-2 text-center sm:text-left">
                         SEND IT BACK:
                     </p>
                     <ul class="list-disc ml-4">

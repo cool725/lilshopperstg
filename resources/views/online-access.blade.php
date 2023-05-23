@@ -16,7 +16,7 @@
         </div>
         <div class="flex flex-col lg:flex-row px-2">
             <div class="lg:w-1/5 text-center lg:text-right pt-10">
-                <div class="flex flex-col items-center lg:items-end mb-12 lg:border-b border-b-black">
+                <div class="flex flex-col items-center lg:items-end mb-4 sm:mb-12 lg:border-b border-b-black">
                     <div class="invert mb-6">
                         <img decoding="async" width="40" height="40" src="/img/06-1.png" alt="06 1"
                             title="">
@@ -24,7 +24,7 @@
                     <h1 class="text-2xl text-black font-extrabold">
                         SCHOOL INFORMATION
                     </h1>
-                    <p class="my-10 text-lg font-normal text-neutral-800">
+                    <p class="sm:my-10 text-lg font-normal text-neutral-800">
                         Complete access and visibility of all the details about your holiday shop!
                     </p>
                 </div>
@@ -36,7 +36,7 @@
                     <h1 class="text-2xl text-black font-extrabold">
                         CHAIRPERSON CONTROL
                     </h1>
-                    <p class="my-10 text-lg font-normal text-neutral-800">
+                    <p class="sm:my-10 text-lg font-normal text-neutral-800">
                         You have the ability to: Create Reorders, check tracking, complete your invoice, and more!
                     </p>
                 </div>
@@ -49,16 +49,16 @@
                         sizes="(min-width: 0px) and (max-width: 480px) 480px, (min-width: 481px) and (max-width: 980px) 980px, (min-width: 981px) and (max-width: 1280px) 1280px, (min-width: 1281px) 2000px, 100vw">
                 </div>
             </div>
-            <div class="lg:w-1/5 pt-10">
-                <div class="flex flex-col items-center lg:items-start mb-12 lg:border-b border-b-black">
+            <div class="lg:w-1/5 pt-4 sm:pt-10">
+                <div class="flex flex-col items-center lg:items-start mb-4 sm:mb-12 lg:border-b border-b-black">
                     <div class="invert mb-6">
                         <img decoding="async" width="40" height="40" src="/img/06-1.png" alt="06 1"
                             title="">
                     </div>
-                    <h1 class="text-2xl text-black font-extrabold">
+                    <h1 class="text-2xl text-black font-extrabold text-center lg:text-left">
                         GIFT CERTIFICATES AND CREDIT CARDS
                     </h1>
-                    <p class="my-10 text-lg font-normal text-neutral-800">
+                    <p class="sm:my-10 text-lg font-normal text-neutral-800">
                         Purchases automatically show in real time! All sales will credit on your invoice.
                     </p>
                 </div>
