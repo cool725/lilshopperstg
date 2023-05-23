@@ -194,9 +194,9 @@
         <div class="flex flex-col lg:flex-row items-start justify-center">
             <div class="flex-1 lg:mr-[5%] pl-[10%] pr-[10%] mb-7 lg:mb-0 lg:pr-0">
                 <div class="mb-7">
-                    <h2 class="text-xl sm:text-4xl font-bold text-black leading-relaxed">How does the Lil’ Shopper’s Shoppe
+                    <h2 class="text-xl sm:text-4xl font-bold text-black sm:leading-relaxed mb-2">How does the Lil’ Shopper’s Shoppe
                         work?</h2>
-                    <p class="text-black leading-loose text-sm sm:text-base">Just Sign Up and we will send a Chairperson
+                    <p class="text-black sm:leading-loose text-sm sm:text-base">Just Sign Up and we will send a Chairperson
                         Kit with everything you
                         need. We will send you the gift merchandise and whatever you do not sell, just send back. It is that
                         easy!</p>
