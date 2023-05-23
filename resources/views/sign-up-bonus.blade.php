@@ -22,7 +22,7 @@
                 <h2 class="text-lg md:text-3xl font-bold mb-2">
                     Sign up by July 4th and receive: $300 Carnival Kit, Cash Register APP and choose a Bonus!
                 </h2>
-                <ul class="text-lg font-semibold text-left list-disc my-7">
+                <ul class="text-base md:text-lg font-semibold text-left list-disc my-7">
                     <li>
                         $200 Lil’ Shopper’s Shoppe Dollars
                     </li>

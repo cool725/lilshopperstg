@@ -2,8 +2,8 @@
 @section('title', 'Free Supplies')
 
 @section('content')
-    <div class="my-14">
-        <div class="w-4/5 max-w-[800px] mx-auto mb-7">
+    <div class="md:my-14">
+        <div class="w-4/5 max-w-[800px] mx-auto md:mb-7">
             <div class="mb-6">
                 <img class="-z-10 relative mx-auto" data-aos="fade-down" data-aos-mirror="true" decoding="async" width="500"
                     height="333" src="/img/GNT-Supplies-23-500.png" alt="100% Satisfaction Guaranteed on a gold starburst"
@@ -20,11 +20,11 @@
             </div>
         </div>
     </div>
-    <div class="w-4/5 max-w-5xl mx-auto py-7">
-        <h2 class="text-center text-2xl lg:text-4xl text-neutral-800 font-bold my-10">
+    <div class="w-4/5 max-w-5xl mx-auto pt-7 pb-0 md:pb-7">
+        <h2 class="text-center text-2xl lg:text-4xl text-neutral-800 font-bold mt-4 sm:mt-10 mb-10">
             The Lil’ Shopper’s Shoppe provides everything you need at no cost to your school!
         </h2>
-        <h3 class="mb-2 text-lg lg:text-2xl text-neutral-800 font-bold">
+        <h3 class="mb-2 text-lg lg:text-2xl text-neutral-800 font-bold text-center md:text-left">
             We make set up as easy as possible:
         </h3>
         <p class="mb-4 text-base md:text-lg text-zinc-500">Every box that arrives at the School will have its own packing slip on top
@@ -40,7 +40,7 @@
     </div>
     <div class="bg-gray-100">
         <div
-            class="h-[100px] bg-[url(data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iMTAwJSIgaGVpZ2h0PSIxMDBweCIgdmlld0JveD0iMCAwIDEyODAgMTQwIiBwcmVzZXJ2ZUFzcGVjdFJhdGlvPSJub25lIiB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciPjxnIGZpbGw9IiNmZmZmZmYiPjxwYXRoIGQ9Ik0wIDUxLjc2YzM2LjIxLTIuMjUgNzcuNTctMy41OCAxMjYuNDItMy41OCAzMjAgMCAzMjAgNTcgNjQwIDU3IDI3MS4xNSAwIDMxMi41OC00MC45MSA1MTMuNTgtNTMuNFYwSDB6IiBmaWxsLW9wYWNpdHk9Ii4zIi8+PHBhdGggZD0iTTAgMjQuMzFjNDMuNDYtNS42OSA5NC41Ni05LjI1IDE1OC40Mi05LjI1IDMyMCAwIDMyMCA4OS4yNCA2NDAgODkuMjQgMjU2LjEzIDAgMzA3LjI4LTU3LjE2IDQ4MS41OC04MFYwSDB6IiBmaWxsLW9wYWNpdHk9Ii41Ii8+PHBhdGggZD0iTTAgMHYzLjRDMjguMiAxLjYgNTkuNC41OSA5NC40Mi41OWMzMjAgMCAzMjAgODQuMyA2NDAgODQuMyAyODUgMCAzMTYuMTctNjYuODUgNTQ1LjU4LTgxLjQ5VjB6Ii8+PC9nPjwvc3ZnPg==)]">
+            class="h-10 md:h-[100px] bg-[url(data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iMTAwJSIgaGVpZ2h0PSIxMDBweCIgdmlld0JveD0iMCAwIDEyODAgMTQwIiBwcmVzZXJ2ZUFzcGVjdFJhdGlvPSJub25lIiB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciPjxnIGZpbGw9IiNmZmZmZmYiPjxwYXRoIGQ9Ik0wIDUxLjc2YzM2LjIxLTIuMjUgNzcuNTctMy41OCAxMjYuNDItMy41OCAzMjAgMCAzMjAgNTcgNjQwIDU3IDI3MS4xNSAwIDMxMi41OC00MC45MSA1MTMuNTgtNTMuNFYwSDB6IiBmaWxsLW9wYWNpdHk9Ii4zIi8+PHBhdGggZD0iTTAgMjQuMzFjNDMuNDYtNS42OSA5NC41Ni05LjI1IDE1OC40Mi05LjI1IDMyMCAwIDMyMCA4OS4yNCA2NDAgODkuMjQgMjU2LjEzIDAgMzA3LjI4LTU3LjE2IDQ4MS41OC04MFYwSDB6IiBmaWxsLW9wYWNpdHk9Ii41Ii8+PHBhdGggZD0iTTAgMHYzLjRDMjguMiAxLjYgNTkuNC41OSA5NC40Mi41OWMzMjAgMCAzMjAgODQuMyA2NDAgODQuMyAyODUgMCAzMTYuMTctNjYuODUgNTQ1LjU4LTgxLjQ5VjB6Ii8+PC9nPjwvc3ZnPg==)]">
         </div>
         <div class="w-4/5 max-w-5xl mx-auto py-7 pb-40 grid sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-7">
             <div class="text-center sm:text-left">

@@ -2931,6 +2931,18 @@ video {
   margin-top: 1.75rem;
   margin-bottom: 1.75rem;
 }
+.mx-3 {
+  margin-left: 0.75rem;
+  margin-right: 0.75rem;
+}
+.mx-4 {
+  margin-left: 1rem;
+  margin-right: 1rem;
+}
+.-mx-5 {
+  margin-left: -1.25rem;
+  margin-right: -1.25rem;
+}
 .mb-10 {
   margin-bottom: 2.5rem;
 }
@@ -3011,6 +3023,18 @@ video {
 }
 .mt-auto {
   margin-top: auto;
+}
+.mt-6 {
+  margin-top: 1.5rem;
+}
+.mt-4 {
+  margin-top: 1rem;
+}
+.-ml-5 {
+  margin-left: -1.25rem;
+}
+.mt-0 {
+  margin-top: 0px;
 }
 .block {
   display: block;
@@ -3098,6 +3122,12 @@ video {
 }
 .w-full {
   width: 100%;
+}
+.w-2\/5 {
+  width: 40%;
+}
+.w-3\/12 {
+  width: 25%;
 }
 .min-w-\[320px\] {
   min-width: 320px;
@@ -3222,6 +3252,16 @@ video {
   --tw-space-x-reverse: 0;
   margin-right: calc(2.5rem * var(--tw-space-x-reverse));
   margin-left: calc(2.5rem * calc(1 - var(--tw-space-x-reverse)));
+}
+.space-y-10 > :not([hidden]) ~ :not([hidden]) {
+  --tw-space-y-reverse: 0;
+  margin-top: calc(2.5rem * calc(1 - var(--tw-space-y-reverse)));
+  margin-bottom: calc(2.5rem * var(--tw-space-y-reverse));
+}
+.space-y-5 > :not([hidden]) ~ :not([hidden]) {
+  --tw-space-y-reverse: 0;
+  margin-top: calc(1.25rem * calc(1 - var(--tw-space-y-reverse)));
+  margin-bottom: calc(1.25rem * var(--tw-space-y-reverse));
 }
 .overflow-auto {
   overflow: auto;
@@ -3506,6 +3546,9 @@ video {
 .p-\[5\%\] {
   padding: 5%;
 }
+.p-4 {
+  padding: 1rem;
+}
 .px-10 {
   padding-left: 2.5rem;
   padding-right: 2.5rem;
@@ -3643,6 +3686,18 @@ video {
 }
 .pt-\[8vw\] {
   padding-top: 8vw;
+}
+.pb-8 {
+  padding-bottom: 2rem;
+}
+.pb-0 {
+  padding-bottom: 0px;
+}
+.pt-7 {
+  padding-top: 1.75rem;
+}
+.pb-4 {
+  padding-bottom: 1rem;
 }
 .text-left {
   text-align: left;
@@ -4063,6 +4118,14 @@ body {
     margin-top: 3.5rem;
   }
 
+  .sm\:mt-10 {
+    margin-top: 2.5rem;
+  }
+
+  .sm\:mb-10 {
+    margin-bottom: 2.5rem;
+  }
+
   .sm\:w-4\/5 {
     width: 80%;
   }
@@ -4102,6 +4165,10 @@ body {
 
   .sm\:pt-10 {
     padding-top: 2.5rem;
+  }
+
+  .sm\:pb-7 {
+    padding-bottom: 1.75rem;
   }
 
   .sm\:text-left {
@@ -4167,12 +4234,43 @@ body {
 
 @media (min-width: 768px) {
 
+  .md\:mx-auto {
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+  .md\:mx-0 {
+    margin-left: 0px;
+    margin-right: 0px;
+  }
+
+  .md\:my-14 {
+    margin-top: 3.5rem;
+    margin-bottom: 3.5rem;
+  }
+
   .md\:mb-0 {
     margin-bottom: 0px;
   }
 
   .md\:mt-36 {
     margin-top: 9rem;
+  }
+
+  .md\:ml-8 {
+    margin-left: 2rem;
+  }
+
+  .md\:mt-12 {
+    margin-top: 3rem;
+  }
+
+  .md\:mb-7 {
+    margin-bottom: 1.75rem;
+  }
+
+  .md\:h-\[100px\] {
+    height: 100px;
   }
 
   .md\:w-2\/3 {
@@ -4195,8 +4293,24 @@ body {
     justify-content: flex-end;
   }
 
+  .md\:space-x-10 > :not([hidden]) ~ :not([hidden]) {
+    --tw-space-x-reverse: 0;
+    margin-right: calc(2.5rem * var(--tw-space-x-reverse));
+    margin-left: calc(2.5rem * calc(1 - var(--tw-space-x-reverse)));
+  }
+
+  .md\:space-y-0 > :not([hidden]) ~ :not([hidden]) {
+    --tw-space-y-reverse: 0;
+    margin-top: calc(0px * calc(1 - var(--tw-space-y-reverse)));
+    margin-bottom: calc(0px * var(--tw-space-y-reverse));
+  }
+
   .md\:border-b-0 {
     border-bottom-width: 0px;
+  }
+
+  .md\:p-7 {
+    padding: 1.75rem;
   }
 
   .md\:px-0 {
@@ -4209,8 +4323,21 @@ body {
     padding-right: 7rem;
   }
 
+  .md\:py-6 {
+    padding-top: 1.5rem;
+    padding-bottom: 1.5rem;
+  }
+
   .md\:pt-32 {
     padding-top: 8rem;
+  }
+
+  .md\:pb-24 {
+    padding-bottom: 6rem;
+  }
+
+  .md\:pb-7 {
+    padding-bottom: 1.75rem;
   }
 
   .md\:text-left {

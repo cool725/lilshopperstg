@@ -2,8 +2,8 @@
 @section('title', 'Gift Certificates')
 
 @section('content')
-    <div class="mb-10">
-        <div class="w-4/5 max-w-[800px] mx-auto pb-7">
+    <div class="sm:mb-10">
+        <div class="w-4/5 max-w-[800px] mx-auto pb-4 sm:pb-7">
             <div class="mb-6">
                 <img data-aos="fade-down" data-aos-mirror="true" class="-z-10 relative mx-auto" decoding="async" width="544"
                     height="344" src="/img/lss-gc-3fan.png" alt="Lil' Shopper's Shoppe Gift Certificates"

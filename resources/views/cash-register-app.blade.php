@@ -2,7 +2,7 @@
 @section('title', 'Cash Register App')
 
 @section('content')
-    <div class="sm:mt-14 md:mt-36 pb-24 pt-12 bg-[url(/img/mobile-app_85.png)] bg-[center_top] bg-cover bg-[#eab450]">
+    <div class="sm:mt-14 md:mt-36 pb-8 md:pb-24 pt-12 bg-[url(/img/mobile-app_85.png)] bg-[center_top] bg-cover bg-[#eab450]">
         <div class="py-6 w-4/5 mx-auto flex flex-col lg:flex-row">
             <div class="flex-1 mr-12 relative">
                 <div class="relative top-[6vw] -left-[28%] mb-[5%] w-1/2">
@@ -237,7 +237,7 @@
         </p>
     </div>
     <div class="my-14 px-8 lg:px-0 max-w-7xl lg:w-4/5 mx-auto">
-        <div class="flex flex-col md:flex-row space-x-10 mb-10">
+        <div class="flex flex-col md:flex-row space-y-5 md:space-y-0 md:space-x-10 mb-10">
             <div class="flex-1 flex justify-center md:justify-end">
                 <img decoding="async" loading="lazy" width="256" height="256" src="/img/LSS-AppleAppLogoHigh.png"
                     alt="Lil' Shopper's Shoppe App Icon" title=""

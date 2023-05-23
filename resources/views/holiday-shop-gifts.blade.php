@@ -33,7 +33,7 @@
     <div class="max-w-1400 mx-auto my-12 px-5">
         <div class="mb-28">
             <div class="border-b-2 border-b-gray-600 pb-3 mb-7">
-                <h1 class="text-2xl md:text-4xl font-extrabold">MOM, GRANDMA & AUNT GIFTS</h1>
+                <h1 class="text-center md:text-left text-2xl md:text-4xl font-extrabold">MOM, GRANDMA & AUNT GIFTS</h1>
             </div>
             <div class="grid sm:grid-cols-2 md:grid-cols-3 xl:grid-cols-4 gap-14">
                 @foreach ($momGifts as $gift)
@@ -72,7 +72,7 @@
         </div>
         <div class="mb-28">
             <div class="border-b-2 border-b-gray-600 pb-3 mb-7">
-                <h1 class="text-2xl md:text-4xl font-extrabold">DAD, GRANDPA, UNCLE & TEACHER GIFTS</h1>
+                <h1 class="text-center md:text-left text-2xl md:text-4xl font-extrabold">DAD, GRANDPA, UNCLE & TEACHER GIFTS</h1>
             </div>
             <div class="grid sm:grid-cols-2 md:grid-cols-3 xl:grid-cols-4 gap-14">
                 @foreach ($dadGifts as $gift)
@@ -111,7 +111,7 @@
         </div>
         <div class="mb-28">
             <div class="border-b-2 border-b-gray-600 pb-3 mb-7">
-                <h1 class="text-2xl md:text-4xl font-extrabold">CHILD GIFTS</h1>
+                <h1 class="text-center md:text-left text-2xl md:text-4xl font-extrabold">CHILD GIFTS</h1>
             </div>
             <div class="grid sm:grid-cols-2 md:grid-cols-3 xl:grid-cols-4 gap-14">
                 @foreach ($childGifts as $gift)

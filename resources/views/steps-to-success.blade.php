@@ -27,7 +27,7 @@
                             Sign Up
                         </a>
                     </div>
-                    <p class="font-bold text-base my-2 text-center sm:text-left">
+                    <p class="font-bold text-base mt-6 mb-2 text-center sm:text-left">
                         SIGN UP ONLINE OR CONTACT US:
                     </p>
                     <ul class="list-disc ml-4 lg:ml-0">
@@ -56,7 +56,7 @@
                     <h1 class="text-3xl sm:text-4xl lg:text-6xl text-center lg:text-left font-bold uppercase mb-2">
                         STEP TWO
                     </h1>
-                    <p class="font-bold text-base my-2 text-center sm:text-left">
+                    <p class="font-bold text-base mt-6 mb-2 text-center sm:text-left">
                         CHAIRPERSON KIT ARRIVES:
                     </p>
                     <ul class="list-disc ml-4">
@@ -103,7 +103,7 @@
                     <h1 class="text-3xl sm:text-4xl lg:text-6xl text-center lg:text-left font-bold uppercase mb-2">
                         STEP THREE
                     </h1>
-                    <p class="font-bold text-base my-2 text-center sm:text-left">
+                    <p class="font-bold text-base mt-6 mb-2 text-center sm:text-left">
                         GIFTS ARRIVE:
                     </p>
                     <ul class="list-disc ml-4 lg:ml-0">
@@ -128,7 +128,7 @@
                     <h1 class="text-3xl sm:text-4xl lg:text-6xl text-center lg:text-left font-bold uppercase mb-2">
                         STEP FOUR
                     </h1>
-                    <p class="font-bold text-base my-2 text-center sm:text-left">
+                    <p class="font-bold text-base mt-6 mb-2 text-center sm:text-left">
                         SEND IT BACK:
                     </p>
                     <ul class="list-disc ml-4">

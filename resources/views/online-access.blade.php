@@ -24,7 +24,7 @@
                     <h1 class="text-2xl text-black font-extrabold">
                         SCHOOL INFORMATION
                     </h1>
-                    <p class="sm:my-10 text-lg font-normal text-neutral-800">
+                    <p class="sm:my-10 text-base sm:text-lg font-normal text-neutral-800">
                         Complete access and visibility of all the details about your holiday shop!
                     </p>
                 </div>
@@ -36,7 +36,7 @@
                     <h1 class="text-2xl text-black font-extrabold">
                         CHAIRPERSON CONTROL
                     </h1>
-                    <p class="sm:my-10 text-lg font-normal text-neutral-800">
+                    <p class="sm:my-10 text-base sm:text-lg font-normal text-neutral-800">
                         You have the ability to: Create Reorders, check tracking, complete your invoice, and more!
                     </p>
                 </div>
@@ -58,7 +58,7 @@
                     <h1 class="text-2xl text-black font-extrabold text-center lg:text-left">
                         GIFT CERTIFICATES AND CREDIT CARDS
                     </h1>
-                    <p class="sm:my-10 text-lg font-normal text-neutral-800">
+                    <p class="sm:my-10 text-base sm:text-lg font-normal text-neutral-800">
                         Purchases automatically show in real time! All sales will credit on your invoice.
                     </p>
                 </div>
@@ -70,7 +70,7 @@
                     <h1 class="text-2xl text-black font-extrabold">
                         SUPPORT MATERIALS
                     </h1>
-                    <p class="my-10 text-lg font-normal text-neutral-800">
+                    <p class="sm:my-10 text-base sm:text-lg font-normal text-neutral-800">
                         Social media marketing posts. If needed, all chairperson materials are downloadable.
                     </p>
                 </div>

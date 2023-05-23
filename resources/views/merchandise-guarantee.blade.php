@@ -2,8 +2,8 @@
 @section('title', 'Merchandise Guarantee')
 
 @section('content')
-    <div class="mb-12">
-        <div class="w-4/5 max-w-[800px] mx-auto pb-7">
+    <div class="sm:mb-12">
+        <div class="w-4/5 max-w-[800px] mx-auto sm:pb-7">
             <div class="mb-6">
                 <img data-aos="fade-down" data-aos-mirror="true" class="-z-10 relative" decoding="async" width="2000" height="1340"
                     src="/img/guarantee_2000_104790368.jpg" alt="100% Satisfaction Guaranteed on a gold starburst"

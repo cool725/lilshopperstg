@@ -3,7 +3,7 @@
 
 @section('content')
     <div class="mt-12">
-        <div class="w-4/5 max-w-5xl mx-auto py-6">
+        <div class="w-4/5 max-w-5xl mx-auto py-3 md:py-6">
             <div>
                 <img decoding="async" width="2000" height="1000" src="/img/ornaments_2000_code_1862224615.jpg" alt=""
                     title=""
@@ -17,13 +17,13 @@
             </div>
         </div>
     </div>
-    <div class="mt-12">
+    <div class="md:mt-12">
         <div class="w-4/5 max-w-5xl mx-auto py-7">
             <div class="et_pb_text_inner">
                 <p class="mb-4 text-base text-zinc-500">We are excited to offer your school a simple profit &amp; price
                     coding system that will make check out
                     FAST &amp; EASY!</p>
-                <h2 class="text-3xl font-bold text-neutral-700 mb-2">Profit</h2>
+                <h2 class="text-center sm:text-left text-3xl font-bold text-neutral-700 mb-2">Profit</h2>
                 <p class="mb-4 text-base text-zinc-500">Select what profit your school would like to make on your sale. We
                     offer 0%, 10% and 20% profit. Schools
                     that run the sale as a service project tend to select 0% or 10% profit to keep the prices as low as
@@ -31,7 +31,7 @@
                     profit….the choice is yours. Based on which profit you select we will send in pre-priced tent cards to
                     put next to each item displaying the price based on the profit you selected and have our cash register
                     app programed to match. This makes setting up and running your sale super easy!</p>
-                <h2 class="text-3xl font-bold text-neutral-700 mb-2">Pre-Coded Gifts</h2>
+                <h2 class="text-center sm:text-left text-3xl font-bold text-neutral-700 mb-2">Pre-Coded Gifts</h2>
                 <p class="mb-4 text-base text-zinc-500">No more memorizing the prices of over 100 items!</p>
                 <p class="mb-4 text-base text-zinc-500">Over 90% of our merchandise will arrive coded with a number printed
                     on it. The number or code will
