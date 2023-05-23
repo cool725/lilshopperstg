@@ -128,7 +128,7 @@
             </div>
         </div>
     </div>
-    <div class="relative pt-[10vw] pb-14 bg-[center_bottom] bg-[url(/img/snowflakes_background_341073425-RGB-2000.jpg)]">
+    <div class="relative pt-[10vw] pb-14 bg-[center_bottom] bg-no-repeat bg-cover bg-[url(/img/snowflakes_background_341073425-RGB-2000.jpg)]">
         <div
             class="absolute left-0 right-0 top-0 h-[100px] scale-y-[-1] bg-[url(data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iMTAwJSIgaGVpZ2h0PSIxMDBweCIgdmlld0JveD0iMCAwIDEyODAgMTQwIiBwcmVzZXJ2ZUFzcGVjdFJhdGlvPSJub25lIiB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciPjxnIGZpbGw9IiNmZmZmZmYiPjxwYXRoIGQ9Ik0xMjgwIDE0MFYwUzk5My40NiAxNDAgNjQwIDEzOSAwIDAgMCAwdjE0MHoiLz48L2c+PC9zdmc+)]">
         </div>
@@ -136,9 +136,9 @@
             class="w-4/5 max-w-7xl mx-auto p-[2vw] rounded-lg shadow-xl flex flex-col lg:flex-row items-start justify-between bg-white">
             <div class="lg:w-[56%] lg:mr-[5%] flex-1 mb-7 lg:mb-0">
                 <div class="mb-[4%]">
-                    <h2 class="text-xl sm:text-4xl font-bold text-black leading-relaxed">Lil’ Shopper’s Shoppe Gift Catalog
+                    <h2 class="text-xl sm:text-4xl sm:leading-relaxed font-bold text-black mb-2">Lil’ Shopper’s Shoppe Gift Catalog
                     </h2>
-                    <p class="text-black leading-loose text-sm sm:text-base">Are you looking for school holiday shop items
+                    <p class="text-black sm:leading-loose text-sm sm:text-base">Are you looking for school holiday shop items
                         that are high quality
                         and
                         priced within a child’s budget? 85% of our Santa shop gift are $5 or less. Lil’ Shopper’s Shoppe
@@ -152,7 +152,7 @@
                     <div class="max-w-550 mx-auto">
                         <div class="flex items-center">
                             <i data-aos="zoom-in" class="fa fa-check-circle" aria-hidden="true"></i>
-                            <h4 class="pl-4 font-bold text-sm">Gifts for Mom, Grandma & Aunt</h4>
+                            <h4 class="ml-8 font-bold text-sm">Gifts for Mom, Grandma & Aunt</h4>
                         </div>
                     </div>
                 </div>
@@ -160,7 +160,7 @@
                     <div class="max-w-550 mx-auto">
                         <div class="flex items-center">
                             <i data-aos="zoom-in" class="fa fa-check-circle" aria-hidden="true"></i>
-                            <h4 class="pl-4 font-bold text-sm">Gifts for Dad, Grandpa, Uncle & Teacher</h4>
+                            <h4 class="ml-8 font-bold text-sm">Gifts for Dad, Grandpa, Uncle & Teacher</h4>
                         </div>
                     </div>
                 </div>
@@ -168,7 +168,7 @@
                     <div class="max-w-550 mx-auto">
                         <div class="flex items-center">
                             <i data-aos="zoom-in" class="fa fa-check-circle" aria-hidden="true"></i>
-                            <h4 class="pl-4 font-bold text-sm">Gifts for Kids</h4>
+                            <h4 class="ml-8 font-bold text-sm">Gifts for Kids</h4>
                         </div>
                     </div>
                 </div>
